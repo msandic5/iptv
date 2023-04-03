@@ -5,3 +5,7 @@ https://dns2.rtvbn.com:8080/live/index.m3u8
 https://ythls.onrender.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Al Jazeera Balkans (1080p)
 https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
+#EXTINF:-1 tvg-id="BetterLifeNatureChannel.us" tvg-logo="https://i.imgur.com/gmrVKEC.jpg" group-title="Relax",Better Life Nature Channel (480p)
+https://uni5rtmp.tulix.tv/betternature/betternature/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveNature4K.ca" tvg-logo="https://i.imgur.com/oDacp1F.png" group-title="Outdoor",Love Nature 4K
+https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8
