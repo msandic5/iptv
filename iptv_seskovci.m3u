@@ -46,5 +46,5 @@ https://dai.google.com/linear/hls/event/5xreV3X4T9WxeIbrwOmdMA/master.m3u8
 https://kurir-tv.haste-cdn.net/providus/live2805.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.ibb.co/ZYPDp5Q/iptv-2.png" group-title="Undefined",HISTORY CHANNEL
 http://fuzzyunicorns.net:80/live/uFbrK9uUN/81qh5S2aF/748588.ts
-#EXTINF:-1,RTRS
+#EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/Vyj45Ea.png" group-title="Undefined",RTRS
 http://parh.rtrs.tv:1935/tv/live/playlist.m3u8
