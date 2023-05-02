@@ -47,18 +47,16 @@ https://kurir-tv.haste-cdn.net/providus/live2805.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.ibb.co/ZYPDp5Q/iptv-2.png" group-title="Undefined",HISTORY CHANNEL
 http://fuzzyunicorns.net:80/live/uFbrK9uUN/81qh5S2aF/748588.ts
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/Vyj45Ea.png" group-title="Undefined",RTRS
-http://parh.rtrs.tv:1935/tv/live/playlist.m3u8
+https://uzivo.rtrs.tv/tv/live/index.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" group-title="Undefined",CGTN Documentary
 https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-#EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" group-title="Undefined",N1
-https://list.iptvcat.com/my_list/s/0d372ac0faba004554c59a4c8b669d06.m3u8
 #EXTINF:-1 tvg-id="TVAS.rs" tvg-logo="https://i.imgur.com/Vn0DKBN.png" group-title="Undefined",RTV AS (576p)
 https://srv1.adriatelekom.com/TVAS/index.m3u8
 #EXTINF:-1 tvg-id="TVPirot.rs" tvg-logo="https://i.imgur.com/eLvd3yd.png" group-title="Undefined",TV Pirot (240p) [Not 24/7]
 https://5bc45691ca49f.streamlock.net/tvpirot/uzivo/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" tvg-id="RTVZenica.ba" group-title="Undefined",RTV Zenica (720p)
+#EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/WACrjS0.png" tvg-id="RTVZenica.ba" group-title="Undefined",RTV Zenica (720p)
 https://stream.rtvze.ba/live/123/123.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" tvg-id="" group-title="Undefined",Sehara TV (720p)
+#EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/FmT7t9q.png" tvg-id="" group-title="Undefined",Sehara TV (720p)
 http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" tvg-id="Kanal6.ba" group-title="Undefined",Kanal 6 (288p)
 https://restreamer1.tnt.ba/hls/kanal6.m3u8
