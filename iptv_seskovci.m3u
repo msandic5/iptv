@@ -1,8 +1,6 @@
 #EXTM3U 
 #EXTINF:-1 tvg-id="BNTV.ba" tvg-logo="https://i.imgur.com/DUBvfWb.png" group-title="Undefined",BN TV (480p)
 https://dns2.rtvbn.com:8080/live/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="Undefined",Al Jazeera English (1080p)
-https://ythls.onrender.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Al Jazeera Balkans (1080p)
 https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
 #EXTINF:-1 tvg-id="BetterLifeNatureChannel.us" tvg-logo="https://i.imgur.com/gmrVKEC.jpg" group-title="Undefined",Better Life Nature Channel (480p)
@@ -13,9 +11,6 @@ https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAnimalsUK.uk" tvg-logo="https://i.imgur.com/KuPue6S.png" group-title="Undefined",Pluto TV Animals (England) (720p)
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf8ea0d000120009bcad83/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf8ea0d000120009bcad83&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=550&terminate=false&userId=
-#EXTINF:-1 tvg-id="PeopleAreAwesome.us" tvg-logo="https://i.imgur.com/MsIx7Ax.png" group-title="Undefined",People are Awesome (720p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e54169f4b9b25000994a303/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5e54169f4b9b25000994a303&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=340&terminate=false&userId=
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVDocumentaries.us" tvg-logo="https://i.imgur.com/ICOzMFc.png" group-title="Undefined",Pluto TV Documentaries (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b85a7582921777994caea63/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5b85a7582921777994caea63&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=91&terminate=false&userId=
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pluto TV Food (England) (720p)
@@ -44,8 +39,6 @@ https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 https://dai.google.com/linear/hls/event/5xreV3X4T9WxeIbrwOmdMA/master.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/oUwwB9s.png" group-title="Undefined",Kurir TV (720p)
 https://kurir-tv.haste-cdn.net/providus/live2805.m3u8
-#EXTINF:0 tvg-country="" tvg-logo="https://i.ibb.co/ZYPDp5Q/iptv-2.png" group-title="Undefined",HISTORY CHANNEL
-http://fuzzyunicorns.net:80/live/uFbrK9uUN/81qh5S2aF/748588.ts
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/Vyj45Ea.png" group-title="Undefined",RTRS
 https://uzivo.rtrs.tv/tv/live/index.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" group-title="Undefined",CGTN Documentary
@@ -60,3 +53,23 @@ https://stream.rtvze.ba/live/123/123.m3u8
 http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" tvg-id="Kanal6.ba" group-title="Undefined",Kanal 6 (288p)
 https://restreamer1.tnt.ba/hls/kanal6.m3u8
+#EXTINF:-1 tvg-id="TVSlonExtra.ba" tvg-logo="https://i.imgur.com/AohYgH1.png" group-title="Undefined",TV Slon Extra (1080p) [Not 24/7]
+http://31.47.0.130:8082
+#EXTINF:-1 tvg-id="RTVGlasDrine.ba" tvg-logo="https://i.imgur.com/9NgxOdb.png" group-title="General;Music",RTV Glas Drine (404p)
+http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
+#EXTINF:-1 tvg-id="KlasikTV.hr" tvg-logo="https://i.imgur.com/gN0iP9m.png" group-title="Undefined",Klasik TV (576p) [Not 24/7]
+https://178.253.194.105/klasiktv/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSTrezor.rs" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="Undefined",RTS Trezor (576p)
+https://vod1.laki.eu/rtstrezor/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSZivot.rs" tvg-logo="https://i.imgur.com/rE2evEm.png" group-title="Undefined",RTS Zivot (576p)
+https://vod1.laki.eu/rtszivot/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSPoletarac.rs" tvg-logo="https://i.imgur.com/8Nnw8NF.png" group-title="Undefined",RTS Poletarac (576p)
+https://vod1.laki.eu/rtspoletarac/playlist.m3u8
+#EXTINF:-1 tvg-id="DoxTV.hr" tvg-logo="https://i.imgur.com/kELjMlN.png" group-title="Undefined",Dox TV (576p)
+https://vod1.laki.eu/dox/index.m3u8
+#EXTINF:-1 tvg-id="UNATV.rs" tvg-logo="https://i.imgur.com/plErzFm.png" group-title="Undefined",Una TV (576p)
+https://vod1.laki.eu/tvuna/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMag.rs" tvg-logo="https://i.imgur.com/D9QweFr.png" group-title="Undefined",TV Mag (576p)
+https://vod1.laki.eu/tvmag/video.m3u8
+#EXTINF:-1 tvg-id="StudioB.rs" tvg-logo="https://i.imgur.com/z2UHD2o.png" group-title="Undefined",Studio B (576p)
+https://vod1.laki.eu/studiob/video.m3u8
