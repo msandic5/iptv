@@ -53,23 +53,3 @@ https://stream.rtvze.ba/live/123/123.m3u8
 http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" tvg-id="Kanal6.ba" group-title="Undefined",Kanal 6 (288p)
 https://restreamer1.tnt.ba/hls/kanal6.m3u8
-#EXTINF:-1 tvg-id="TVSlonExtra.ba" tvg-logo="https://i.imgur.com/AohYgH1.png" group-title="Undefined",TV Slon Extra (1080p) [Not 24/7]
-http://31.47.0.130:8082
-#EXTINF:-1 tvg-id="RTVGlasDrine.ba" tvg-logo="https://i.imgur.com/9NgxOdb.png" group-title="General;Music",RTV Glas Drine (404p)
-http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
-#EXTINF:-1 tvg-id="KlasikTV.hr" tvg-logo="https://i.imgur.com/gN0iP9m.png" group-title="Undefined",Klasik TV (576p) [Not 24/7]
-https://178.253.194.105/klasiktv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTSTrezor.rs" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="Undefined",RTS Trezor (576p)
-https://vod1.laki.eu/rtstrezor/playlist.m3u8
-#EXTINF:-1 tvg-id="RTSZivot.rs" tvg-logo="https://i.imgur.com/rE2evEm.png" group-title="Undefined",RTS Zivot (576p)
-https://vod1.laki.eu/rtszivot/playlist.m3u8
-#EXTINF:-1 tvg-id="RTSPoletarac.rs" tvg-logo="https://i.imgur.com/8Nnw8NF.png" group-title="Undefined",RTS Poletarac (576p)
-https://vod1.laki.eu/rtspoletarac/playlist.m3u8
-#EXTINF:-1 tvg-id="DoxTV.hr" tvg-logo="https://i.imgur.com/kELjMlN.png" group-title="Undefined",Dox TV (576p)
-https://vod1.laki.eu/dox/index.m3u8
-#EXTINF:-1 tvg-id="UNATV.rs" tvg-logo="https://i.imgur.com/plErzFm.png" group-title="Undefined",Una TV (576p)
-https://vod1.laki.eu/tvuna/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMag.rs" tvg-logo="https://i.imgur.com/D9QweFr.png" group-title="Undefined",TV Mag (576p)
-https://vod1.laki.eu/tvmag/video.m3u8
-#EXTINF:-1 tvg-id="StudioB.rs" tvg-logo="https://i.imgur.com/z2UHD2o.png" group-title="Undefined",Studio B (576p)
-https://vod1.laki.eu/studiob/video.m3u8
