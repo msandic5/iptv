@@ -47,7 +47,21 @@ https://srv1.adriatelekom.com/TVAS/index.m3u8
 https://5bc45691ca49f.streamlock.net/tvpirot/uzivo/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/WACrjS0.png" tvg-id="RTVZenica.ba" group-title="Undefined",RTV Zenica (720p)
 https://stream.rtvze.ba/live/123/123.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/FmT7t9q.png" tvg-id="" group-title="Undefined",Sehara TV (720p)
-http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" tvg-id="Kanal6.ba" group-title="Undefined",Kanal 6 (288p)
-https://restreamer1.tnt.ba/hls/kanal6.m3u8
+#EXTM3U
+#EXTINF:0 tvg-country="RS" tvg-logo="" group-title="Undefined",Marsh TV (720p)
+http://cdn.dovecher.tv:8081/live/marsh/playlist.m3u8?checkedby:iptvcat.com
+#EXTM3U
+#EXTINF:-1 group-title="Undefined",SRB RTS KOLO
+http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73620?checkedby:new.iptvlister.com
+#EXTM3U
+#EXTINF:-1 group-title="Undefined",SRB RTS TREZOR
+http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73624?checkedby:new.iptvlister.com
+#EXTM3U
+#EXTINF:-1 group-title="Undefined",SRB VIASATEXPLORER
+http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73644?checkedby:new.iptvlister.com
+#EXTM3U
+#EXTINF:-1 group-title="Undefined",SRB VIASAT NATURE
+http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73646?checkedby:new.iptvlister.com
+#EXTM3U
+#EXTINF:-1 group-title="Undefined",SRB PINK PEDIA
+http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73592?checkedby:new.iptvlister.com
