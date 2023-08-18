@@ -43,36 +43,8 @@ https://stream.rtvze.ba/live/123/123.m3u8
 #EXTINF:0 tvg-country="RS" tvg-logo="" group-title="Undefined",Marsh TV (720p)
 http://cdn.dovecher.tv:8081/live/marsh/playlist.m3u8?checkedby:iptvcat.com
 #EXTM3U
-#EXTINF:-1 group-title="Undefined",SRB RTS KOLO
-http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73620?checkedby:new.iptvlister.com
-#EXTM3U
-#EXTINF:-1 group-title="Undefined",SRB RTS TREZOR
-http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73624?checkedby:new.iptvlister.com
-#EXTM3U
-#EXTINF:-1 group-title="Undefined",SRB VIASATEXPLORER
-http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73644?checkedby:new.iptvlister.com
-#EXTM3U
-#EXTINF:-1 group-title="Undefined",SRB VIASAT NATURE
-http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73646?checkedby:new.iptvlister.com
-#EXTM3U
-#EXTINF:-1 group-title="Undefined",SRB PINK PEDIA
-http://2hubs.ddns.net:25461/jake-telegram/KwZhtsvSRh/73592?checkedby:new.iptvlister.com
-#EXTM3U
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/featuredImage.jpg" group-title="English github",Pluto TV VEVO 2K (720p) [Not] [24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fd7bca3e0a4ee0007a38e8c/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS&checkedby:new.iptvlister.com
-#EXTM3U
-#EXTINF:-1,RS National Geographic HD Backup NO_1
-http://iptvch.com:2082/7wOd6fH332c1/8Skfy98Fd74f/39823?checkedby:new.iptvlister.com
-#EXTM3U
-#EXTINF:-1,RS Food Network Backup NO_2
-http://iptvch.com:2082/7wOd6fH332c1/8Skfy98Fd74f/39851?checkedby:new.iptvlister.com
-#EXTM3U
-#EXTINF:-1,RS Pink Kuvar Backup NO_2
-http://iptvch.com:2082/7wOd6fH332c1/8Skfy98Fd74f/27697?checkedby:new.iptvlister.com
-#EXTM3U
-#EXTINF:-1,RS RTS Svet
-http://c21black12c.xyz:8080/Mde03/BmcUy8euk2x7/222801.ts?checkedby:new.iptvlister.com
-#EXTM3U
 #EXTINF:-1,E-MUSIC HITS
 http://168.205.87.198:8555/live/1057/123456/233.ts?checkedby:new.iptvlister.com
 #EXTM3U
@@ -81,3 +53,33 @@ http://51.222.43.170:8001/2861/xR4VbCnLKjJp/260549?checkedby:new.iptvlister.com
 #EXTM3U
 #EXTINF:-1,VH1 MEGA HITS FULLHD
 http://xcui.vitvabc.xyz:8880/DQ-NOVO500/ziqDdRRQ6c/31629?checkedby:new.iptvlister.com
+#EXTINF:-1 tvg-id="TVBelleAmie.rs" tvg-logo="https://mts.rs/oec/images/tv_channels/fd314b47c050b97f08e439e86776f875.png" group-title="Undefined",TV Belle Amie (540p) [Not 24/7]
+http://92.60.238.10:1935/live/belleamie/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: BBC Earth" tvg-logo="http://s3.i3ns.net/portal/picon/2021-08/5d0eaa2edacf283052ac5b98537bc1ff.png" group-title="EX-YU",EX-YU: BBC Earth
+http://aanax.com:8080/64921423/b86d686a87/24924
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: 24 Kitchen" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/2925b2f8712219bfd8f1817c8cf9bc64.png" group-title="EX-YU",EX-YU: 24 Kitchen
+http://aanax.com:8080/64921423/b86d686a87/4126
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Da Vinci" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/092da98c4ddecd1cef2f5c7b332938f1.png" group-title="EX-YU",EX-YU: Da Vinci
+http://aanax.com:8080/64921423/b86d686a87/24073
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Discovery Science" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/aa3ac8dce611f88c296e00edb622a153.png" group-title="EX-YU",EX-YU: Discovery Science
+http://aanax.com:8080/64921423/b86d686a87/4147
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Discovery World" tvg-logo="http://s3.i3ns.net/portal/picon/2022-05/9c740d4db9dae066a38744f41f6c223c.png" group-title="EX-YU",EX-YU: Discovery World
+http://aanax.com:8080/64921423/b86d686a87/4146
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: DocuBox" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/cd137363c14d729f15419f72e7ab316d.png" group-title="EX-YU",EX-YU: DocuBox
+http://aanax.com:8080/64921423/b86d686a87/59863
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: History" tvg-logo="http://s3.i3ns.net/portal/picon/2021-11/d584e4fbda635126e768c9c141393dba.png" group-title="EX-YU",EX-YU: History
+http://aanax.com:8080/64921423/b86d686a87/4163
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: History 2" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/d9340eb8e0e99b1adb3af9d63d68713e.png" group-title="EX-YU",EX-YU: History 2
+http://aanax.com:8080/64921423/b86d686a87/20210
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Nat Geo" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/1a8a2402478eaf6149713e5faad06946.png" group-title="EX-YU",EX-YU: Nat Geo
+http://aanax.com:8080/64921423/b86d686a87/4177
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Nat Geo Wild" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/3400587dd3c8901b1f37db760ded9f0b.png" group-title="EX-YU",EX-YU: Nat Geo Wild
+http://aanax.com:8080/64921423/b86d686a87/4178
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Tom and Jerry" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/0b663cb2a9792e2c035fb49a0eda6e36.png" group-title="EX-YU",EX-YU: Tom and Jerry
+http://aanax.com:8080/64921423/b86d686a87/26810
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: TV 1000" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/ec13ed833b82c75fe5400badb674b03a.png" group-title="EX-YU",EX-YU: TV 1000
+http://aanax.com:8080/64921423/b86d686a87/4210
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Viasat Explore" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/f2bfdc7a7d51d835fd49eea308a3d302.png" group-title="EX-YU",EX-YU: Viasat Explore
+http://aanax.com:8080/64921423/b86d686a87/4214
+#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Viasat Nature" tvg-logo="http://s3.i3ns.net/portal/picon/2023-06/659c11816d46f52fd2068d3ebc5b25aa.png" group-title="EX-YU",EX-YU: Viasat Nature
+http://aanax.com:8080/64921423/b86d686a87/298868
