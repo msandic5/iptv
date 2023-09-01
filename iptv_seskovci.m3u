@@ -25,8 +25,6 @@ https://d1cs5tlhj75jxe.cloudfront.net/rtl/playlist.m3u8
 https://d1um9c09e0t5ag.cloudfront.net/rtl2/playlist.m3u8
 #EXTINF:-1 tvg-name="RtDoc" tvg-logo="https://i.imgur.com/pkzq2Y4.png" group-title="Undefined",RtDoc
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
-#EXTINF:0,Magellan TV (720p)
-https://dai.google.com/linear/hls/event/5xreV3X4T9WxeIbrwOmdMA/master.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/oUwwB9s.png" group-title="Undefined",Kurir TV (720p)
 https://kurir-tv.haste-cdn.net/providus/live2805.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/Vyj45Ea.png" group-title="Undefined",RTRS
@@ -75,8 +73,6 @@ http://aanax.com:8080/64921423/b86d686a87/20210
 http://aanax.com:8080/64921423/b86d686a87/4177
 #EXTINF:-1 tvg-id="" tvg-name="EX-YU: Nat Geo Wild" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/3400587dd3c8901b1f37db760ded9f0b.png" group-title="EX-YU",EX-YU: Nat Geo Wild
 http://aanax.com:8080/64921423/b86d686a87/4178
-#EXTINF:-1 tvg-id="" tvg-name="EX-YU: Tom and Jerry" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/0b663cb2a9792e2c035fb49a0eda6e36.png" group-title="EX-YU",EX-YU: Tom and Jerry
-http://aanax.com:8080/64921423/b86d686a87/26810
 #EXTINF:-1 tvg-id="" tvg-name="EX-YU: TV 1000" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/ec13ed833b82c75fe5400badb674b03a.png" group-title="EX-YU",EX-YU: TV 1000
 http://aanax.com:8080/64921423/b86d686a87/4210
 #EXTINF:-1 tvg-id="" tvg-name="EX-YU: Viasat Explore" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/f2bfdc7a7d51d835fd49eea308a3d302.png" group-title="EX-YU",EX-YU: Viasat Explore
