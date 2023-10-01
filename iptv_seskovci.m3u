@@ -56,3 +56,13 @@ http://iptv-tn.com:8080/xtreamtv.gleeze.com/60_restreammmm@telgarmm/61757
 http://iptv-tn.com:8080/xtreamtv.gleeze.com/60_restreammmm@telgarmm/61760
 #EXTINF:-1,EX-YOU: PINK PEDIA (SRB)
 http://iptv-tn.com:8080/xtreamtv.gleeze.com/60_restreammmm@telgarmm/61765
+#EXTINF:-1 tvg-id="PiKanal.rs" tvg-logo="https://i.imgur.com/X4vBCVA.png" group-title="Undefined",TV Pi Canal Pirot (576p) [Not 24/7]
+https://stream.pikanal.rs/pikanal/pgm.m3u8
+#EXTINF:-1 tvg-id="TVBelleAmie.rs" tvg-logo="https://i.imgur.com/SzWynar.png" group-title="Undefined",TV Belle Amie (540p)
+http://92.60.238.10:1935/live/belleamie/playlist.m3u8
+#EXTINF:-1 tvg-id="TVHram.rs" tvg-logo="https://i.imgur.com/I2LoCFF.png" group-title="Undefined",TV Hram (576p) [Not 24/7]
+https://vod1.laki.eu/live/hram/index.m3u8
+#EXTINF:-1 tvg-id="TVKanalM.rs" tvg-logo="https://i.imgur.com/JiuOHYP.png" group-title="Undefined",TV Kanal M (576p)
+http://176.67.210.1/hls/kanalm.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/60ylWbQ.png" tvg-name="Xtrema Retro Cartoons" group-title="Animation, Kids, Classic",Xtrema Retro Cartoons
+https://stmv1.cnarlatam.com/retroinfantil/retroinfantil/playlist.m3u8
