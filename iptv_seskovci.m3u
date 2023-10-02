@@ -35,27 +35,10 @@ https://srv1.adriatelekom.com/TVAS/index.m3u8
 https://5bc45691ca49f.streamlock.net/tvpirot/uzivo/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/WACrjS0.png" tvg-id="RTVZenica.ba" group-title="Undefined",RTV Zenica (720p)
 https://stream.rtvze.ba/live/123/123.m3u8
-#EXTM3U
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/featuredImage.jpg" group-title="English github",Pluto TV VEVO 2K (720p) [Not] [24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fd7bca3e0a4ee0007a38e8c/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS&checkedby:new.iptvlister.com
-#EXTINF:-1,E-MUSIC HITS
-http://168.205.87.198:8555/live/1057/123456/233.ts?checkedby:new.iptvlister.com
-#EXTM3U
 #EXTINF:-1,SD Mtv hits
 http://51.222.43.170:8001/2861/xR4VbCnLKjJp/260549?checkedby:new.iptvlister.com
-#EXTM3U
-#EXTINF:-1,VH1 MEGA HITS FULLHD
-http://xcui.vitvabc.xyz:8880/DQ-NOVO500/ziqDdRRQ6c/31629?checkedby:new.iptvlister.com
-#EXTINF:-1,EX-YOU: PINK HAHA (SRB)
-http://iptv-tn.com:8080/xtreamtv.gleeze.com/60_restreammmm@telgarmm/61779
-#EXTINF:-1,EX-YOU: PINK KUVAR (SRB)
-http://iptv-tn.com:8080/xtreamtv.gleeze.com/60_restreammmm@telgarmm/61764
-#EXTINF:-1,EX-YOU: PINK ACTION (SRB)
-http://iptv-tn.com:8080/xtreamtv.gleeze.com/60_restreammmm@telgarmm/61757
-#EXTINF:-1,EX-YOU: PINK SCIFI FANTASY (SRB)
-http://iptv-tn.com:8080/xtreamtv.gleeze.com/60_restreammmm@telgarmm/61760
-#EXTINF:-1,EX-YOU: PINK PEDIA (SRB)
-http://iptv-tn.com:8080/xtreamtv.gleeze.com/60_restreammmm@telgarmm/61765
 #EXTINF:-1 tvg-id="PiKanal.rs" tvg-logo="https://i.imgur.com/X4vBCVA.png" group-title="Undefined",TV Pi Canal Pirot (576p) [Not 24/7]
 https://stream.pikanal.rs/pikanal/pgm.m3u8
 #EXTINF:-1 tvg-id="TVBelleAmie.rs" tvg-logo="https://i.imgur.com/SzWynar.png" group-title="Undefined",TV Belle Amie (540p)
@@ -64,5 +47,3 @@ http://92.60.238.10:1935/live/belleamie/playlist.m3u8
 https://vod1.laki.eu/live/hram/index.m3u8
 #EXTINF:-1 tvg-id="TVKanalM.rs" tvg-logo="https://i.imgur.com/JiuOHYP.png" group-title="Undefined",TV Kanal M (576p)
 http://176.67.210.1/hls/kanalm.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/60ylWbQ.png" tvg-name="Xtrema Retro Cartoons" group-title="Animation, Kids, Classic",Xtrema Retro Cartoons
-https://stmv1.cnarlatam.com/retroinfantil/retroinfantil/playlist.m3u8
