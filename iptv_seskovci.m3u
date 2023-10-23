@@ -7,14 +7,6 @@ https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
 https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAnimalsUK.uk" tvg-logo="https://i.imgur.com/KuPue6S.png" group-title="Undefined",Pluto TV Animals (England) (720p)
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf8ea0d000120009bcad83/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf8ea0d000120009bcad83&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=550&terminate=false&userId=
-#EXTINF:-1 tvg-id="PlutoTVDocumentaries.us" tvg-logo="https://i.imgur.com/ICOzMFc.png" group-title="Undefined",Pluto TV Documentaries (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b85a7582921777994caea63/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5b85a7582921777994caea63&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=91&terminate=false&userId=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pluto TV Naturescape (720p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812bd9f249444e05d09cc4e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812bd9f249444e05d09cc4e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=692&terminate=false&userId=
-#EXTINF:-1 tvg-id="VoyagerDocumentaries.us" tvg-logo="https://i.imgur.com/bbqk8XO.png" group-title="Undefined",Pluto TV Voyager Documentaries (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/589aa03df9ba56a84197a560/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=589aa03df9ba56a84197a560&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=681&terminate=false&userId=
 #EXTINF:-1 tvg-id="BHRT.ba" tvg-logo="https://i.imgur.com/01bZ5rw.png" group-title="Undefined",BHRT (720p) [Geo-blocked]
 https://bhrtstream.bhtelecom.ba/bhrtportal.m3u8
 #EXTINF:-1 tvg-name="RTL" tvg-logo="https://i.imgur.com/zAjr6pO.png" tvg-id="RTLCroatia.hr" group-title="Undefined",RTL
@@ -55,7 +47,33 @@ https://uzivo.rtrs.tv/tv/live/index.m3u8
 https://live.leveex.hr/hls/live.m3u8
 #EXTINF:-1 tvg-id="V2BEATTV.uk",V2BEAT (720p) [Not 24/7]
 https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 tvg-name="BBC Food" tvg-logo="https://i.imgur.com/N3xiz4m.png" tvg-id="BBCFood.us" group-title="USA",BBC Food
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
-#EXTINF:-1 tvg-name="BBC Home" tvg-logo="https://i.imgur.com/Ii8DX1x.png" tvg-id="BBCHome.us" group-title="USA",BBC Home
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5836fe745b600070fc743/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 tvg-id="RTVGlasDrine.ba",RTV Glas Drine (404p) [Not 24/7]
+http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
+#EXTINF:-1 tvg-id="BelleAmie.rs" tvg-logo="https://i.imgur.com/tOlN5Rz.png" group-title="Undefined",TV Belle Amie (540p)
+http://92.60.238.10:1935/live/belleamie/playlist.m3u8
+#EXTINF:-1 tvg-id="RTS1.rs" tvg-logo="https://i.imgur.com/S1pKHSR.png" group-title="Undefined",RTS 1 (720p)
+https://tv.liveott.online/RTS_1.m3u8
+#EXTINF:-1 tvg-id="RTS2.rs" tvg-logo="https://i.imgur.com/jltAf5h.png" group-title="Undefined",RTS 2 (720p)
+https://tv.liveott.online/RTS_2.m3u8
+#EXTINF:-1 tvg-id="AgroTV.rs" tvg-logo="https://i.imgur.com/MpY41jI.png" group-title="Undefined",Agro TV (1080p)
+https://tv.liveott.online/AGRO_TV.m3u8
+#EXTINF:-1 tvg-id="B92.rs" tvg-logo="https://i.imgur.com/rZ9nnT9.png" group-title="Undefined",B92 (1080p)
+https://tv.liveott.online/B92.m3u8
+#EXTINF:-1 tvg-id="DunavTV.rs" tvg-logo="https://i.imgur.com/nMOqNvR.png" group-title="Undefined",Dunav TV (576p)
+https://tv.liveott.online/Dunav_TV.m3u8
+#EXTINF:-1 tvg-id="TVMarsh.rs" tvg-logo="https://i.imgur.com/Dt1mPyX.png" group-title="Undefined",Marsh TV (720p) [Not 24/7]
+http://cdn.dovecher.tv:8081/live/marsh/playlist.m3u8
+#EXTINF:-1 tvg-id="Prva.rs" tvg-logo="https://i.imgur.com/NA31Gtm.png" group-title="Undefined",Prva Srpska TV (720p)
+https://tv.liveott.online/PRVA.m3u8
+#EXTINF:-1 tvg-id="TVKragujevac.rs" tvg-logo="https://i.imgur.com/j0UMFNs.png" group-title="Undefined",TV Kragujevac (576p)
+https://tv.liveott.online/TV_Kragujevac.m3u8
+#EXTINF:-1 tvg-id="TVLeskovac.rs" tvg-logo="https://i.imgur.com/NFj27eT.png" group-title="Undefined",TV Leskovac (576p)
+https://tv.liveott.online/TV_Leskovac.m3u8
+#EXTINF:-1 tvg-id="TVLotelPlus.rs" tvg-logo="https://i.imgur.com/Kbhkiqa.png" group-title="Undefined",TV Lotel (576p)
+https://tv.liveott.online/Lotel.m3u8
+#EXTINF:-1 tvg-id="TVMelos.rs" tvg-logo="https://i.imgur.com/PV2jLnZ.png" group-title="Undefined",TV Melos (576p)
+https://tv.liveott.online/TV_Melos.m3u8
+#EXTINF:-1 tvg-id="Mostnet.rs" tvg-logo="https://i.imgur.com/36AS9oh.png" group-title="Undefined",TV Mostnet (576p)
+https://tv.liveott.online/Tv_MostNet.m3u8
+#EXTINF:-1 tvg-id="TVPancevo.rs" tvg-logo="https://i.imgur.com/WWiuqVz.png" group-title="Undefined",TV Pancevo (576p)
+https://tv.liveott.online/TV_Pan%C4%8Devo.m3u8
