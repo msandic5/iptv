@@ -41,39 +41,11 @@ http://176.67.210.1/hls/kanalm.m3u8
 https://restreamer1.tnt.ba/hls/tntkids.m3u8
 #EXTINF:-1 tvg-id="RTRSPlus.ba",RTRS Plus (576p) [Not 24/7]
 https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
-#EXTINF:-1 tvg-id="RTRSTV.ba",RTRS TV (576p) [Not 24/7]
-https://uzivo.rtrs.tv/tv/live/index.m3u8
 #EXTINF:-1 tvg-id="SBTV.hr",SBTV (1080p) [Not 24/7]
 https://live.leveex.hr/hls/live.m3u8
 #EXTINF:-1 tvg-id="V2BEATTV.uk",V2BEAT (720p) [Not 24/7]
 https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVGlasDrine.ba",RTV Glas Drine (404p) [Not 24/7]
-http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
 #EXTINF:-1 tvg-id="BelleAmie.rs" tvg-logo="https://i.imgur.com/tOlN5Rz.png" group-title="Undefined",TV Belle Amie (540p)
 http://92.60.238.10:1935/live/belleamie/playlist.m3u8
-#EXTINF:-1 tvg-id="RTS1.rs" tvg-logo="https://i.imgur.com/S1pKHSR.png" group-title="Undefined",RTS 1 (720p)
-https://tv.liveott.online/RTS_1.m3u8
-#EXTINF:-1 tvg-id="RTS2.rs" tvg-logo="https://i.imgur.com/jltAf5h.png" group-title="Undefined",RTS 2 (720p)
-https://tv.liveott.online/RTS_2.m3u8
-#EXTINF:-1 tvg-id="AgroTV.rs" tvg-logo="https://i.imgur.com/MpY41jI.png" group-title="Undefined",Agro TV (1080p)
-https://tv.liveott.online/AGRO_TV.m3u8
-#EXTINF:-1 tvg-id="B92.rs" tvg-logo="https://i.imgur.com/rZ9nnT9.png" group-title="Undefined",B92 (1080p)
-https://tv.liveott.online/B92.m3u8
-#EXTINF:-1 tvg-id="DunavTV.rs" tvg-logo="https://i.imgur.com/nMOqNvR.png" group-title="Undefined",Dunav TV (576p)
-https://tv.liveott.online/Dunav_TV.m3u8
-#EXTINF:-1 tvg-id="TVMarsh.rs" tvg-logo="https://i.imgur.com/Dt1mPyX.png" group-title="Undefined",Marsh TV (720p) [Not 24/7]
-http://cdn.dovecher.tv:8081/live/marsh/playlist.m3u8
-#EXTINF:-1 tvg-id="Prva.rs" tvg-logo="https://i.imgur.com/NA31Gtm.png" group-title="Undefined",Prva Srpska TV (720p)
-https://tv.liveott.online/PRVA.m3u8
-#EXTINF:-1 tvg-id="TVKragujevac.rs" tvg-logo="https://i.imgur.com/j0UMFNs.png" group-title="Undefined",TV Kragujevac (576p)
-https://tv.liveott.online/TV_Kragujevac.m3u8
-#EXTINF:-1 tvg-id="TVLeskovac.rs" tvg-logo="https://i.imgur.com/NFj27eT.png" group-title="Undefined",TV Leskovac (576p)
-https://tv.liveott.online/TV_Leskovac.m3u8
-#EXTINF:-1 tvg-id="TVLotelPlus.rs" tvg-logo="https://i.imgur.com/Kbhkiqa.png" group-title="Undefined",TV Lotel (576p)
-https://tv.liveott.online/Lotel.m3u8
-#EXTINF:-1 tvg-id="TVMelos.rs" tvg-logo="https://i.imgur.com/PV2jLnZ.png" group-title="Undefined",TV Melos (576p)
-https://tv.liveott.online/TV_Melos.m3u8
-#EXTINF:-1 tvg-id="Mostnet.rs" tvg-logo="https://i.imgur.com/36AS9oh.png" group-title="Undefined",TV Mostnet (576p)
-https://tv.liveott.online/Tv_MostNet.m3u8
-#EXTINF:-1 tvg-id="TVPancevo.rs" tvg-logo="https://i.imgur.com/WWiuqVz.png" group-title="Undefined",TV Pancevo (576p)
-https://tv.liveott.online/TV_Pan%C4%8Devo.m3u8
+#EXTINF:-1 tvg-id="TelevizijaPruga.rs" tvg-logo="https://i.imgur.com/H86OGO5.png" group-title="Undefined",TV Pruga (1080p)
+https://stream.pruga.rs:8443/live/pruga/index.m3u8
