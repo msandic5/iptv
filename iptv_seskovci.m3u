@@ -47,7 +47,7 @@ https://abr.de1se01.v2beat.live/playlist.m3u8
 http://92.60.238.10:1935/live/belleamie/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevizijaPruga.rs" tvg-logo="https://i.imgur.com/H86OGO5.png" group-title="Undefined",TV Pruga (1080p)
 https://stream.pruga.rs:8443/live/pruga/index.m3u8
-#EXTINF:-1 tvg-id="RTVBap.rs" tvg-logo="https://i.imgur.com/TBAtPH6.png" group-title="Undefined",RTV Bap (480p)
-https://53be5ef2d13aa.streamlock.net/rtvbap/uzivo/playlist.m3u8
-#EXTINF:-1 tvg-id="SOSKanalPlus.rs" tvg-logo="https://i.imgur.com/9SD40uH.png" group-title="Sports",SOS Kanal Plus (720p)
-https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="RTS1.rs" tvg-logo="https://i.imgur.com/S1pKHSR.png" group-title="Undefined",RTS 1 (720p)
+https://orionsvet.gcdn.co/mobileworld/rts1/video.m3u8?md5=7AmyYjRCM4Xzu9KPE6PQ0g&expires=1700823594&ak=3008999
+#EXTINF:-1 tvg-id="happy.rs",HAPPYTV 
+https://orionsvet.gcdn.co/mobileworld/happy/video.m3u8?md5=RZkTxrm8orNVRNFAiYAajQ&expires=1700823594&ak=3008999
