@@ -49,37 +49,27 @@ http://92.60.238.10:1935/live/belleamie/playlist.m3u8
 https://stream.pruga.rs:8443/live/pruga/index.m3u8
 #EXTINF:-1 tvg-id="RTSSVET.rs",RTS SVET
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73623?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="RTSkolo.rs",RTS Kolo
+#EXTINF:-1 tvg-id="RTSkolo.rs" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rts-kolo-rs.png" group-title="Undefined",RTS Kolo
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73620?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="RTS1.rs",RTS1
+#EXTINF:-1 tvg-id="RTS1.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/rts-1.png" group-title="Undefined",RTS1
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73616?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="RTS2.rs",RTS2
+#EXTINF:-1 tvg-id="RTS2.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/rts-2.png" group-title="Undefined",RTS2
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73617?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="RTStrezor.rs",RTS Trezor
+#EXTINF:-1 tvg-id="RTSTrezor.rs" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="Undefined",RTS Trezor (576p)
 http://2hubs.ddns.net:25461/crAig1s/myG32Vd21@/73624?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="PINKaction.rs",PINK Action
+#EXTINF:-1 tvg-id="PINKaction.rs" tvg-logo="https://www.hteronet.ba/storage/upload/popis_kanala/pink-action_113629.png" group-title="Undefined",PINK Action
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73574?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="PINKwestern.rs",PINK Western
+#EXTINF:-1 tvg-id="PINKwestern.rs" tvg-logo="https://www.hteronet.ba/storage/upload/popis_kanala/pink-western_11376.png" group-title="Undefined",PINK Western
 http://2hubs.ddns.net:25461/crAig1s/myG32Vd21@/73604?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="PINKwestern2.rs",PINK Western2
-http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47992?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="PINKfilm.rs",PINK Film
+#EXTINF:-1 tvg-id="PINKfilm.rs" tvg-logo="https://www.hteronet.ba/storage/upload/popis_kanala/pink-film_113549.png" group-title="Undefined",PINK Film
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/1104?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="Cinestar2.rs",Cinestar Premiere 2
+#EXTINF:-1 tvg-id="Cinestar2.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/cinestar-tv-premiere-2.png" group-title="Undefined",Cinestar Premiere 2
 http://37.49.225.197:8080/Steffenmartin/t7CzyQBxPn53UTgWNGq4cV/299630?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="Discovery.rs",Discovery
-http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47909?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="NatGeoW.rs",NatGeo Wild
 http://iptvtree.net:8080/newoutputofflinechecker/GJQNq4AjPVFHyrZ5/4178?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="ATV.rs",ATV
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47891?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="BBCE.rs",BBC Earth
-http://37.49.225.197:8080/Steffenmartin/t7CzyQBxPn53UTgWNGq4cV/24924?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="Docubox.rs",DocuBOX
+#EXTINF:-1 tvg-id="Docubox.rs" tvg-logo="https://en.wikipedia.org/wiki/DocuBox#/media/File:DocuBox_HD_logo.png" group-title="Undefined",DocuBOX
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47910?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="FaceTV.rs",FaceTV
-http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/3480?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="Hrt4.rs",HRT4
+#EXTINF:-1 tvg-id="Hrt4.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/HRT4-logo.png/799px-HRT4-logo.png" group-title="Undefined",HRT4
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/3490?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="vh.rs",VIASAT HISTORY
-http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73645?checkedby:iptvlister.com
