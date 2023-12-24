@@ -47,39 +47,39 @@ https://abr.de1se01.v2beat.live/playlist.m3u8
 http://92.60.238.10:1935/live/belleamie/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevizijaPruga.rs" tvg-logo="https://i.imgur.com/H86OGO5.png" group-title="Undefined",TV Pruga (1080p)
 https://stream.pruga.rs:8443/live/pruga/index.m3u8
-#EXTINF:-1,RTS SVET
+#EXTINF:-1 tvg-id="RTSSVET.rs",RTS SVET
 https://iptvlister.com/req-data/download-link/fafbbebcfff9c4ca69afb2319bc24278/
-#EXTINF:-1,RTS Kolo
+#EXTINF:-1 tvg-id="RTSkolo.rs",RTS Kolo
 https://iptvlister.com/req-data/download-link/04c30aca6abe6875e3a12bb6528ab30c/
-#EXTINF:-1,RTS1
+#EXTINF:-1 tvg-id="RTS1.rs",RTS1
 https://iptvlister.com/req-data/download-link/9ad09a6c0cfb036802bbc226b332c0cd/
-#EXTINF:-1,RTS2
+#EXTINF:-1 tvg-id="RTS2.rs",RTS2
 https://iptvlister.com/req-data/download-link/ad399a83854a3e9e5f57dc09c7298db1/
-#EXTINF:-1,RTS Trezor
+#EXTINF:-1 tvg-id="RTStrezor.rs",RTS Trezor
 https://iptvlister.com/req-data/download-link/a38747e4d0a862380645229941b3158e/
-#EXTINF:-1,Viasat History
+#EXTINF:-1 tvg-id="ViasatHistory.rs",Viasat History
 https://iptvlister.com/req-data/download-link/54489dafa9a06a03764737a721ee68b3/
-#EXTINF:-1,PINK Action
+#EXTINF:-1 tvg-id="PINKaction.rs",PINK Action
 https://iptvlister.com/req-data/download-link/d569692e50a78a058ee4a1007537b93d/
-#EXTINF:-1,PINK Western
+#EXTINF:-1 tvg-id="PINKwestern.rs",PINK Western
 https://iptvlister.com/req-data/download-link/6498aa9846aa9e09b8997b45a198c8b9/
-#EXTINF:-1,PINK Western2
+#EXTINF:-1 tvg-id="PINKwestern2.rs",PINK Western2
 https://iptvlister.com/req-data/download-link/57cc192528be3bc78da4ddeff3d36ddb/
-#EXTINF:-1,PINK Film
+#EXTINF:-1 tvg-id="PINKfilm.rs",PINK Film
 https://iptvlister.com/req-data/download-link/ff2a8981f82ece0c9d0e8847b0832064/
-#EXTINF:-1,Cinestar Premiere 2
+#EXTINF:-1 tvg-id="Cinestar2.rs",Cinestar Premiere 2
 https://iptvlister.com/req-data/download-link/657bfb04a0f8407a7c2f778dae09486a/
-#EXTINF:-1,Discovery
+#EXTINF:-1 tvg-id="Discovery.rs",Discovery
 https://iptvlister.com/req-data/download-link/95efae551ede8c1f66053ca4dc6635a7/
-#EXTINF:-1,NatGeo Wild
+#EXTINF:-1 tvg-id="NatGeoW.rs",NatGeo Wild
 https://iptvlister.com/req-data/download-link/5a6c1ef5b1205b4c36ee90403108d094/
-#EXTINF:-1,ATV
+#EXTINF:-1 tvg-id="ATV.rs",ATV
 https://iptvlister.com/req-data/download-link/98039bbd8c966603dff7e22f7f83b9ec/
-#EXTINF:-1,BBC Earth
+#EXTINF:-1 tvg-id="BBCE.rs",BBC Earth
 https://iptvlister.com/req-data/download-link/7870ebe70fddc722de05be9ad46f0b02/
-#EXTINF:-1,DocuBOX
+#EXTINF:-1 tvg-id="Docubox.rs",DocuBOX
 https://iptvlister.com/req-data/download-link/276b685181f94bab97b7a444cc3c29e8/
-#EXTINF:-1,FaceTV
+#EXTINF:-1 tvg-id="FaceTV.rs",FaceTV
 https://iptvlister.com/req-data/download-link/c3b57bc1902afda7e4f45241d52587be/
-#EXTINF:-1,HRT4
+#EXTINF:-1 tvg-id="Hrt4.rs",HRT4
 https://iptvlister.com/req-data/download-link/4060686284fa5c45e4a22bdcf5c2ded8/
