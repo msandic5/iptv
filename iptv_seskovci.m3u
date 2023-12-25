@@ -19,7 +19,7 @@ https://d1rzyyum8t0q1e.cloudfront.net/rtl-kockica/playlist.m3u8
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/oUwwB9s.png" group-title="Undefined",Kurir TV (720p)
 https://kurir-tv.haste-cdn.net/providus/live2805.m3u8
-#EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/Vyj45Ea.png" group-title="Undefined",RTRS
+#EXTINF:0 tvg-country="" tvg-logo="https://www.rtrs.tv/_bmp/logo-127x37.png" group-title="Undefined",RTRS
 https://uzivo.rtrs.tv/tv/live/index.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" group-title="Undefined",CGTN Documentary
 https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
@@ -63,13 +63,25 @@ http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73574?checkedby:iptvlister.
 http://2hubs.ddns.net:25461/crAig1s/myG32Vd21@/73604?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="PINKfilm.rs" tvg-logo="https://www.hteronet.ba/storage/upload/popis_kanala/pink-film_113549.png" group-title="Undefined",PINK Film
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/1104?checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="PINKclassic.rs" tvg-logo="https://cdn-0.tvprofil.com/img/kanali-logo/pink-classic-logo.png" group-title="Undefined",PINK Classic
+http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73576?checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="PINKwrld.rs" tvg-logo="https://cdn-0.tvprofil.com/img/kanali-logo/PinkWorldCinema_logo.png" group-title="Undefined",PINK World Cinema
+http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73606?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="Cinestar2.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/cinestar-tv-premiere-2.png" group-title="Undefined",Cinestar Premiere 2
 http://37.49.225.197:8080/Steffenmartin/t7CzyQBxPn53UTgWNGq4cV/299630?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="NatGeoW.rs",NatGeo Wild
 http://iptvtree.net:8080/newoutputofflinechecker/GJQNq4AjPVFHyrZ5/4178?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="ATV.rs",ATV
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47891?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="Docubox.rs" tvg-logo="https://en.wikipedia.org/wiki/DocuBox#/media/File:DocuBox_HD_logo.png" group-title="Undefined",DocuBOX
+#EXTINF:-1 tvg-id="Docubox.rs" tvg-logo="https://ocdn.eu/ptv2-images/logo-migrated/docubox-hd.png" group-title="Undefined",DocuBOX
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47910?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="Hrt4.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/HRT4-logo.png/799px-HRT4-logo.png" group-title="Undefined",HRT4
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/3490?checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="N1srb.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/N1_logo.svg/800px-N1_logo.svg.png" group-title="Undefined",N1 Srbija
+http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73562?checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="discovery.rs" tvg-logo="https://www.pngkit.com/png/detail/360-3607895_discovery-world-channel-logo.png" group-title="Undefined",Discovery World
+http://iptvtree.net:8080/newoutputofflinechecker/GJQNq4AjPVFHyrZ5/4146?checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="Cinestarcmd.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/cinestar-tv-comedy.png" group-title="Undefined",Cinestar Comedy
+http://iptvtree.net:8080/newoutputofflinechecker/GJQNq4AjPVFHyrZ5/299635?checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="Cinestara.rs" tvg-logo="https://mtel.ba/Picture/4488/png/CinestarTV.png" group-title="Undefined",Cinestar Action
+http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47869?checkedby:iptvlister.com
