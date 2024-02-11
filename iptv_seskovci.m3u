@@ -45,8 +45,8 @@ https://live.leveex.hr/hls/live.m3u8
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="BelleAmie.rs" tvg-logo="https://i.imgur.com/tOlN5Rz.png" group-title="Undefined",TV Belle Amie (540p)
 http://92.60.238.10:1935/live/belleamie/playlist.m3u8
-#EXTINF:-1 tvg-id="TelevizijaPruga.rs" tvg-logo="https://i.imgur.com/H86OGO5.png" group-title="Undefined",TV Pruga (1080p)
-https://stream.pruga.rs:8443/live/pruga/index.m3u8
+#EXTINF:-1 tvg-id="GlasDrine.rs" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrJk_FMz0ckCT5fgmTKncPeXRTDEIdgex1p3bS8RnLe-Kb-3zeFtdJqtC6HaUNrPPaa-U&usqp=CAU" group-title="Undefined",Glas Drine (1080p)
+http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
 #EXTINF:-1 tvg-id="RTSSVET.rs",RTS SVET
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73623?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="RTSkolo.rs" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rts-kolo-rs.png" group-title="Undefined",RTS Kolo
@@ -67,21 +67,23 @@ http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/1104?checkedby:iptvlist
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73576?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="PINKwrld.rs" tvg-logo="https://cdn-0.tvprofil.com/img/kanali-logo/PinkWorldCinema_logo.png" group-title="Undefined",PINK World Cinema
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73606?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="Cinestar2.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/cinestar-tv-premiere-2.png" group-title="Undefined",Cinestar Premiere 2
-http://37.49.225.197:8080/Steffenmartin/t7CzyQBxPn53UTgWNGq4cV/299630?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="NatGeoW.rs",NatGeo Wild
-http://iptvtree.net:8080/newoutputofflinechecker/GJQNq4AjPVFHyrZ5/4178?checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="PinkPedia.rs" tvg-logo="https://www.rem.rs/uploads/attachment/pruzalac/1434/thumb_pink_pedia.png" group-title="Undefined",PINK Pedia
+http://pro.ipcover.tv:8080/kittyx100/12sdHsdIydHf/207955#checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="NatGeoW.rs",National Geographic
+http://5.182.209.225:8080/live/9YWRad7Ueb/ERXyxqmUs6/12708.ts#checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="ATV.rs",ATV
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47891?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="Docubox.rs" tvg-logo="https://ocdn.eu/ptv2-images/logo-migrated/docubox-hd.png" group-title="Undefined",DocuBOX
-http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47910?checkedby:iptvlister.com
+http://pro.ipcover.tv:8080/kittyx100/12sdHsdIydHf/208024#checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="dbd.rs",Docubox Discovery
+http://tvmate.icu:8080/jesus1/jesus1/119440#checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="Hrt4.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/HRT4-logo.png/799px-HRT4-logo.png" group-title="Undefined",HRT4
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/3490?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="N1srb.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/N1_logo.svg/800px-N1_logo.svg.png" group-title="Undefined",N1 Srbija
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73562?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="discovery.rs" tvg-logo="https://www.pngkit.com/png/detail/360-3607895_discovery-world-channel-logo.png" group-title="Undefined",Discovery World
-http://iptvtree.net:8080/newoutputofflinechecker/GJQNq4AjPVFHyrZ5/4146?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="Cinestarcmd.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/cinestar-tv-comedy.png" group-title="Undefined",Cinestar Comedy
-http://iptvtree.net:8080/newoutputofflinechecker/GJQNq4AjPVFHyrZ5/299635?checkedby:iptvlister.com
+http://pro.ipcover.tv:8080/kittyx100/12sdHsdIydHf/208012#checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="pinkscifi.rs" tvg-logo="https://cdn-0.tvprofil.com/img/kanali-logo/Pink_SciFi_Fantasy_logo.png" group-title="Undefined",Pink SciFi & Fantasy
+http://pro.ipcover.tv:8080/kittyx100/12sdHsdIydHf/207956#checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="Cinestara.rs" tvg-logo="https://mtel.ba/Picture/4488/png/CinestarTV.png" group-title="Undefined",Cinestar Action
 http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/47869?checkedby:iptvlister.com
