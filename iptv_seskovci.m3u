@@ -18,7 +18,7 @@ https://d1rzyyum8t0q1e.cloudfront.net/rtl-kockica/playlist.m3u8
 #EXTINF:-1 tvg-name="RtDoc" tvg-logo="https://i.imgur.com/pkzq2Y4.png" group-title="Undefined",RtDoc
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/oUwwB9s.png" group-title="Undefined",Kurir TV (720p)
-https://kurir-tv.haste-cdn.net/providus/live2805.m3u8
+https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/index.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://www.rtrs.tv/_bmp/logo-127x37.png" group-title="Undefined",RTRS
 https://uzivo.rtrs.tv/tv/live/index.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" group-title="Undefined",CGTN Documentary
