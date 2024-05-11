@@ -55,8 +55,6 @@ http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73616?checkedby:iptvlister.
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73617?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="RTSTrezor.rs" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="Undefined",RTS Trezor (576p)
 http://2hubs.ddns.net:25461/crAig1s/myG32Vd21@/73624?checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="PINKaction.rs" tvg-logo="https://www.hteronet.ba/storage/upload/popis_kanala/pink-action_113629.png" group-title="Undefined",PINK Action
-http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73574?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="PINKwestern.rs" tvg-logo="https://www.hteronet.ba/storage/upload/popis_kanala/pink-western_11376.png" group-title="Undefined",PINK Western
 http://2hubs.ddns.net:25461/crAig1s/myG32Vd21@/73604?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="PINKfilm.rs" tvg-logo="https://www.hteronet.ba/storage/upload/popis_kanala/pink-film_113549.png" group-title="Undefined",PINK Film
@@ -69,3 +67,14 @@ http://5.182.209.225:8080/live/9YWRad7Ueb/ERXyxqmUs6/12816.ts#checkedby:iptvlist
 http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73562?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="looneytuness.rs" tvg-logo="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/de3488b1-a8ab-4f34-8230-0a465a79ae86/d88774ed0ee3edad4535459ef0ee4d50463f4aa9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500" group-title="Undefined",LooneyTunes
 http://kmkus.wanicelife.com:8880/roncolvin/4BJ7AwFy9t/60914#checkedby:iptvlister.com
+#EXTINF:-1 tvg-id="HRT1.hr" tvg-logo="https://i.imgur.com/lDSctzX.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",HRT 1 (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://webtvstream.bhtelecom.ba/hrt1.m3u8
+#EXTINF:-1 tvg-id="HRT2.hr" tvg-logo="https://i.imgur.com/yyePcl1.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",HRT 2 (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://webtvstream.bhtelecom.ba/hrt2.m3u8
+#EXTINF:-1 tvg-id="HRT3.hr" tvg-logo="https://i.imgur.com/4OrOJRx.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",HRT 3 (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://webtvstream.bhtelecom.ba/hrt3.m3u8
+#EXTINF:-1 tvg-id="TVSehara.si" tvg-logo="https://i.imgur.com/189FW4H.png" group-title="Music",Sehara TV (720p)
+http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
