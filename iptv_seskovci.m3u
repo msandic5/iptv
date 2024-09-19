@@ -20,7 +20,7 @@ https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/oUwwB9s.png" group-title="Undefined",Kurir TV (720p)
 https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/index.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://www.rtrs.tv/_bmp/logo-127x37.png" group-title="Undefined",RTRS
-https://uzivo.rtrs.tv/tv/live/index.m3u8
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/10735
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" group-title="Undefined",CGTN Documentary
 https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
 #EXTINF:-1 tvg-id="TVAS.rs" tvg-logo="https://i.imgur.com/Vn0DKBN.png" group-title="Undefined",RTV AS (576p)
@@ -55,16 +55,12 @@ http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49164#checkedby:iptvli
 http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49163#checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="RTSTrezor.rs" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="Undefined",RTS Trezor (576p)
 http://abcnew.site:8880/D12m2185/99818221/49088#checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="PINKwestern.rs" tvg-logo="https://www.hteronet.ba/storage/upload/popis_kanala/pink-western_11376.png" group-title="Undefined",PINK Western
-https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/nkwGIBMj5RS4TxdPtm-9LezEnRraN8BdZPlVfjcuhwHlCXqihz6p3sF2GWFSaRb3LKSSjL9NmCb2vbt34LPpo5Ig-4TPqU7X8olzREkVR_r1L0Zzm-V7bKRcfl5fr6H5M0gTngKV3U-7zs3kBwKvtsJAJNs2JbKHhZyyn7wblR0/hls/index.m3u8
 #EXTINF:-1 group-title="EX-YU Serbia",SRB021 PINK FILM Backup NO_3 iptvlister.com
 http://yesimes.oknirvana.club:8880/D12m2555/52433416/49100#checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="PINKclassic.rs" tvg-logo="https://cdn-0.tvprofil.com/img/kanali-logo/pink-classic-logo.png" group-title="Undefined",PINK Classic
-http://2hubs.ddns.net:25461/Faucon1tvMT/g8pHKUYxwDhx/73576?checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="Docubox.rs" tvg-logo="https://ocdn.eu/ptv2-images/logo-migrated/docubox-hd.png" group-title="Undefined",DocuBOX
 http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49232#checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="looneytuness.rs" tvg-logo="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/de3488b1-a8ab-4f34-8230-0a465a79ae86/d88774ed0ee3edad4535459ef0ee4d50463f4aa9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500" group-title="Undefined",LooneyTunes
-http://kmkus.wanicelife.com:8880/roncolvin/4BJ7AwFy9t/60914#checkedby:iptvlister.com
+http://cord-cutter.net:8080/Danaunk1/ksGH6Tg3pY/125638
 #EXTINF:-1 tvg-id="HRT1.hr" tvg-logo="https://i.imgur.com/lDSctzX.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",HRT 1 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://webtvstream.bhtelecom.ba/hrt1.m3u8
@@ -82,3 +78,7 @@ http://abcnew.site:8880/D12m2668/24493676/49115#checkedby:iptvlister.com
 http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49210#checkedby:iptvlister.com
 #EXTINF:-1 group-title="EX-YU Yugoslavia",YU107 Pink Comedy Backup NO_2 iptvlister.com
 http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49219#checkedby:iptvlister.com
+#EXTINF:-1 group-title="24/7 CHANNELS",24/7 TOM AND JERRY Backup NO_3 iptvlister.com
+http://fortv.cc:8080/5ybSS2/616430/125635
+#EXTINF:-1,HR Klasik TV iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/3404
