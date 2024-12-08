@@ -20,7 +20,7 @@ https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/oUwwB9s.png" group-title="Undefined",Kurir TV (720p)
 https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/index.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://www.rtrs.tv/_bmp/logo-127x37.png" group-title="Undefined",RTRS
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/10735
+http://parh.rtrs.tv:1935/tv/live/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" group-title="Undefined",CGTN Documentary
 https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
 #EXTINF:-1 tvg-id="TVAS.rs" tvg-logo="https://i.imgur.com/Vn0DKBN.png" group-title="Undefined",RTV AS (576p)
@@ -82,3 +82,12 @@ http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49219#checkedby:iptvli
 http://fortv.cc:8080/5ybSS2/616430/125635
 #EXTINF:-1 tvg-id="klasiktv.rs" tvg-logo="https://www.logotypes101.com/logos/819/D04B70B5D84CA0C46B9735E514BA1031/klasik_tv.png" group-title="Undefined",Klasik TV (720p)
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/3404
+#EXTINF:-1 gt="" tvg-country="" tvg-id="" tvg-beid="" tvg-tvprofil-id="" tvg-logo="https://i.imgur.com/5ZUk3ck.png" status="" ,Alternativna
+#+https://www.jagledam.com/Alternativna-ATV-uzivo-stream
+https://vpn.komtel.ba/hls/mylivestream.m3u8
+#EXTINF:-1 gt="DAY" tvg-country="RS" tvg-id="Blic TV.ba" tvg-beid="Blic TV.ba" tvg-tvprofil-id="Blic.rs" tvg-logo="https://i.imgur.com/XM5Qz1i.png" status="ok:0 2024-09-28_11:47:47" ,Blic
+#BE EPG
+https://53a7ed211fc32.streamlock.net/blictv-secure/smil:blictv-secure.smil/playlist.m3u8
+#EXTINF:-1 gt="DAY" tvg-country="RS" tvg-id="TV Belle Amie SD/HD.rs" tvg-beid="TV Belle Amie SD/HD.rs" tvg-tvprofil-id="" tvg-logo="https://i.imgur.com/tOlN5Rz.png" status="" ,Belle Amie
+#
+http://92.60.238.10:1935/live/belleamie/playlist.m3u8
