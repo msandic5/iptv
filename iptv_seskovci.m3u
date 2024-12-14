@@ -46,13 +46,13 @@ https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="BelleAmie.rs" tvg-logo="https://i.imgur.com/tOlN5Rz.png" group-title="Undefined",TV Belle Amie (540p)
 http://92.60.238.10:1935/live/belleamie/playlist.m3u8
 #EXTINF:-1 tvg-id="RTSSVET.rs",RTS SVET
-http://abcnew.site:8880/D12m2668/24493676/49087#checkedby:iptvlister.com
+https://webtvstream.bhtelecom.ba/hls7/rts_svet_1200.m3u8
 #EXTINF:-1 tvg-id="RTSkolo.rs" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rts-kolo-rs.png" group-title="Undefined",RTS Kolo
 http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49116#checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="RTS1.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/rts-1.png" group-title="Undefined",RTS1
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49164#checkedby:iptvlister.com
+https://webtvstream.bhtelecom.ba/rts1.m3u8
 #EXTINF:-1 tvg-id="RTS2.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/rts-2.png" group-title="Undefined",RTS2
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49163#checkedby:iptvlister.com
+https://webtvstream.bhtelecom.ba/rts2.m3u8
 #EXTINF:-1 tvg-id="RTSTrezor.rs" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="Undefined",RTS Trezor (576p)
 http://abcnew.site:8880/D12m2185/99818221/49088#checkedby:iptvlister.com
 #EXTINF:-1 group-title="EX-YU Serbia",SRB021 PINK FILM Backup NO_3 iptvlister.com
@@ -72,12 +72,9 @@ https://webtvstream.bhtelecom.ba/hrt2.m3u8
 https://webtvstream.bhtelecom.ba/hrt3.m3u8
 #EXTINF:-1 tvg-id="TVSehara.si" tvg-logo="https://i.imgur.com/189FW4H.png" group-title="Music",Sehara TV (720p)
 http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
-#EXTINF:-1 group-title="EX-YU Serbia",SRB006 PINK HAHA Backup NO_3 iptvlister.com
-http://abcnew.site:8880/D12m2668/24493676/49115#checkedby:iptvlister.com
-#EXTINF:-1 group-title="EX-YU Yugoslavia",YU116 Pink Horror Backup NO_2 iptvlister.com
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49210#checkedby:iptvlister.com
-#EXTINF:-1 group-title="EX-YU Yugoslavia",YU107 Pink Comedy Backup NO_2 iptvlister.com
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49219#checkedby:iptvlister.com
+#EXTINF:-1 gt="DAY" tvg-country="RS" tvg-id="pink.sr" tvg-beid="TV Pink SD/HD.rs" tvg-tvprofil-id="pink.sr" tvg-logo="https://i.imgur.com/66wHb7E.png" status="ok:0 2024-09-28_11:48:07" ,Pink
+#
+https://live.rednet.rs/providus/pink1_hq/index.m3u8
 #EXTINF:-1 tvg-id="tomjerry.rs" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFd87TNMk8SHsXDPYfP3Q5ByXRQzYlIlDOlDTdaqsrpg5Ngo9nOXWGtZjHR2pZNCYrkq8&usqp=CAU" group-title="Undefined",Tom Jerry (720p)
 http://fortv.cc:8080/5ybSS2/616430/125635
 #EXTINF:-1 tvg-id="klasiktv.rs" tvg-logo="https://www.logotypes101.com/logos/819/D04B70B5D84CA0C46B9735E514BA1031/klasik_tv.png" group-title="Undefined",Klasik TV (720p)
