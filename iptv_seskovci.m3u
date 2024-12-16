@@ -45,14 +45,20 @@ https://live.leveex.hr/hls/live.m3u8
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="BelleAmie.rs" tvg-logo="https://i.imgur.com/tOlN5Rz.png" group-title="Undefined",TV Belle Amie (540p)
 http://92.60.238.10:1935/live/belleamie/playlist.m3u8
-#EXTINF:-1 tvg-id="RTSSVET.rs",RTS SVET
-https://webtvstream.bhtelecom.ba/hls7/rts_svet_1200.m3u8
 #EXTINF:-1 tvg-id="RTSkolo.rs" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rts-kolo-rs.png" group-title="Undefined",RTS Kolo
 http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49116#checkedby:iptvlister.com
-#EXTINF:-1 tvg-id="RTS1.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/rts-1.png" group-title="Undefined",RTS1
+#EXTINF:-1 gt="DAY" tvg-country="RS" tvg-id="rts1.sr" tvg-beid="RTS 1 SD/HD.rs" tvg-tvprofil-id="rts1.sr" tvg-logo="https://i.imgur.com/S1pKHSR.png" status="ok:0 2024-09-28_11:48:18" ,RTS 1 (bht)
+#[Not 24/7]
+#EXTVLCOPT:http-user-agent=Android
 https://webtvstream.bhtelecom.ba/rts1.m3u8
-#EXTINF:-1 tvg-id="RTS2.rs" tvg-logo="https://nstatic.net/img/tv/channels/m/rts-2.png" group-title="Undefined",RTS2
+#EXTINF:-1 gt="DAY" tvg-country="RS" tvg-id="rts2.sr" tvg-beid="RTS 2 SD/HD.rs" tvg-tvprofil-id="rts2.sr" tvg-logo="https://i.imgur.com/jltAf5h.png" status="ok:0 2024-09-28_11:48:19" ,RTS 2 (bht)
+#[Not 24/7]
+#EXTVLCOPT:http-user-agent=Android
 https://webtvstream.bhtelecom.ba/rts2.m3u8
+#EXTINF:-1 gt="DAY" tvg-country="RS" tvg-id="rts-sat.sr" tvg-beid="SAT TV.rs" tvg-tvprofil-id="rts-sat.sr" tvg-logo="" status="ok:0 2024-09-28_11:48:21" ,RTS Svet (bht)
+#[Not 24/7]
+#EXTVLCOPT:http-user-agent=Android
+https://webtvstream.bhtelecom.ba/hls7/rts_svet_1200.m3u8
 #EXTINF:-1 tvg-id="RTSTrezor.rs" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="Undefined",RTS Trezor (576p)
 http://abcnew.site:8880/D12m2185/99818221/49088#checkedby:iptvlister.com
 #EXTINF:-1 group-title="EX-YU Serbia",SRB021 PINK FILM Backup NO_3 iptvlister.com
@@ -85,6 +91,16 @@ https://vpn.komtel.ba/hls/mylivestream.m3u8
 #EXTINF:-1 gt="DAY" tvg-country="RS" tvg-id="Blic TV.ba" tvg-beid="Blic TV.ba" tvg-tvprofil-id="Blic.rs" tvg-logo="https://i.imgur.com/XM5Qz1i.png" status="ok:0 2024-09-28_11:47:47" ,Blic
 #BE EPG
 https://53a7ed211fc32.streamlock.net/blictv-secure/smil:blictv-secure.smil/playlist.m3u8
-#EXTINF:-1 gt="DAY" tvg-country="RS" tvg-id="TV Belle Amie SD/HD.rs" tvg-beid="TV Belle Amie SD/HD.rs" tvg-tvprofil-id="" tvg-logo="https://i.imgur.com/tOlN5Rz.png" status="" ,Belle Amie
+#EXTINF:-1 gt="DAY" tvg-country="HR" tvg-id="STAR.hr" tvg-beid="STAR.hr" tvg-tvprofil-id="fox.movie" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" status="ok:0 2024-09-28_11:48:31" ,Star (bht)
+#does not work in kodi
+#EXTVLCOPT:http-user-agent=Android
+https://webtvstream.bhtelecom.ba/hls18/star_channel_1200.m3u8
+#EXTINF:-1 gt="NATURE" tvg-country="United States" tvg-id="USBA3800005NI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3800005NI_20230809T005143SQUARE.png_20230809005144.png" provider="samsung" url_mh="https://jmp2.uk/SamsungTVPlus/USBA3800005NI.m3u8" url_alt="" status="ok:0 2024-11-09_12:28:26" description="" ,zzNATURE: Clarity 4K (Samsung)
 #
-http://92.60.238.10:1935/live/belleamie/playlist.m3u8
+https://jmp2.uk/sam-USBA3800005NI.m3u8
+#EXTINF:-1 gt="NATURE" tvg-country="United Kingdom" tvg-id="GBBA220000751" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA220000751_20230125T022345SQUARE.png_20230125022346.png" provider="samsung" url_mh="https://jmp2.uk/SamsungTVPlus/GBBA220000751.m3u8" url_alt="" status="ok:0 2024-11-09_12:28:38" description="" ,zzNATURE: INWILD (Samsung)
+#
+https://jmp2.uk/sam-GBBA220000751.m3u8
+#EXTINF:-1 gt="NATURE" tvg-country="United Kingdom" tvg-id="GBBB5000002PL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB5000002PL_20230823T033115SQUARE.png_20230823033116.png" provider="samsung" url_mh="https://jmp2.uk/SamsungTVPlus/GBBB5000002PL.m3u8" url_alt="" status="ok:0 2024-11-09_12:30:46" description="" ,zzNATURE: Wild Planet (Samsung)
+#
+https://jmp2.uk/sam-GBBB5000002PL.m3u8
