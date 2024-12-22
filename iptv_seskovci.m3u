@@ -22,7 +22,7 @@ https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/ind
 #EXTINF:0 tvg-country="" tvg-logo="https://www.rtrs.tv/_bmp/logo-127x37.png" group-title="Undefined",RTRS
 http://parh.rtrs.tv:1935/tv/live/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" group-title="Undefined",CGTN Documentary
-https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 tvg-id="TVAS.rs" tvg-logo="https://i.imgur.com/Vn0DKBN.png" group-title="Undefined",RTV AS (576p)
 https://srv1.adriatelekom.com/TVAS/index.m3u8
 #EXTINF:-1 tvg-id="TVPirot.rs" tvg-logo="https://i.imgur.com/eLvd3yd.png" group-title="Undefined",TV Pirot (240p) [Not 24/7]
