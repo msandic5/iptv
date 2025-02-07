@@ -35,8 +35,8 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fd7bca3e
 https://stream.pikanal.rs/pikanal/pgm.m3u8
 #EXTINF:-1 tvg-id="TVHram.rs" tvg-logo="https://i.imgur.com/I2LoCFF.png" group-title="Undefined",TV Hram (576p) [Not 24/7]
 https://vod1.laki.eu/live/hram/index.m3u8
-#EXTINF:-1 tvg-id="TVKanalM.rs" tvg-logo="https://i.imgur.com/JiuOHYP.png" group-title="Undefined",TV Kanal M (576p)
-#http://176.67.210.1/hls/kanalm.m3u8
+#EXTINF:-1 tvg-id="pp.rs" tvg-logo="https://i.imgur.com/JiuOHYP.png" group-title="Undefined",PINK Pedia (576p)
+https://iezmzlrgtn5pgme.ngolpdkyoctjcddxshli469r.org/sunshine/jWAPQmrfYFtmKn1GO5ogqQtu7r_O0U5aKAyw9FVZ5N1qKFUkg73wvETeV3IPI_1ybniLt855L7iWuf8EHwOYfhzHCmpRz__4_kpwvDxA3mMmyqF4ErXtwAFQKP77XdMZ8V6Vg-hR-ZGlP4rxQ1WLM8rwVVzz1fNVMMQk7ZwNeLg/hls/index.m3u8
 #EXTINF:-1 tvg-id="RTRSPlus.ba",RTRS Plus (576p) [Not 24/7]
 https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
 #EXTINF:-1 tvg-id="SBTV.hr",SBTV (1080p) [Not 24/7]
@@ -60,7 +60,7 @@ https://webtvstream.bhtelecom.ba/rts2.m3u8
 #EXTVLCOPT:http-user-agent=Android
 https://webtvstream.bhtelecom.ba/hls7/rts_svet_1200.m3u8
 #EXTINF:-1 tvg-id="RTSTrezor.rs" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="Undefined",RTS Trezor (576p)
-#http://abcnew.site:8880/D12m2185/99818221/49088#checkedby:iptvlister.com
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/D5-OBTddgugSz-HNQbn56kW3HV5HYRmub0aaWXwcYy4f3NjMRcoRhaShq2qVKfQTgdmerSO56jDZqpcLWOHZ5_9WA5lEirAO7OXMERpRvOh69Ue9JVi2U-N3sIN6_PbtYdRzbvuOh4Ky8LV0Z-vrV0RgmtBRGvmTu6EgTObM4Ac/hls/index.m3u8
 #EXTINF:-1 tvg-id="Docubox.rs" tvg-logo="https://ocdn.eu/ptv2-images/logo-migrated/docubox-hd.png" group-title="Undefined",DocuBOX
 https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/lEnndch5xkSYTO64SlOngc5WdZTF7tH7fe8qC2aRbJCF_7D2RSG7toE7HG6KuCaqThWrTgJeXy7mpzhsnfU71_Znaos1xNZLw_Ee6OdtmCGQz4xT5UuCRJTNYJXvujBRCSXf2TvwVX_HGoX1OIAdovn3BX8HcI-6HsVZqhcfxUI/hls/index.m3u8
 #EXTINF:-1 tvg-id="looneytuness.rs" tvg-logo="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/de3488b1-a8ab-4f34-8230-0a465a79ae86/d88774ed0ee3edad4535459ef0ee4d50463f4aa9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500" group-title="Undefined",LooneyTunes
@@ -95,17 +95,9 @@ https://53a7ed211fc32.streamlock.net/blictv-secure/smil:blictv-secure.smil/playl
 https://webtvstream.bhtelecom.ba/hls18/star_channel_1200.m3u8
 #EXTINF:-1 tvg-id="",VIASAT Explorer
 https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/f1HZjTl6LeklczpeZoZFiEs68pItykGM2VCQRKO-oUefQzEVllsxtu6dRS6GElJrKwQEr7i9vfA0m5wQI62t_HVWcGIo4SYXhu2PAALP3-SFNcuDuArQBvOqPYT4JLRRaNXhzh8w-fuaytcyKaG-1ghrgfgqw_WKTRE2Aijca7Q/hls/index.m3u8
-#EXTINF:-1 gt="NATURE" tvg-country="United Kingdom" tvg-id="GBBA220000751" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA220000751_20230125T022345SQUARE.png_20230125022346.png" provider="samsung" url_mh="https://jmp2.uk/SamsungTVPlus/GBBA220000751.m3u8" url_alt="" status="ok:0 2024-11-09_12:28:38" description="" ,zzNATURE: INWILD (Samsung)
-#
-https://jmp2.uk/sam-GBBA220000751.m3u8
-#EXTINF:-1 gt="NATURE" tvg-country="United Kingdom" tvg-id="GBBB5000002PL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB5000002PL_20230823T033115SQUARE.png_20230823033116.png" provider="samsung" url_mh="https://jmp2.uk/SamsungTVPlus/GBBB5000002PL.m3u8" url_alt="" status="ok:0 2024-11-09_12:30:46" description="" ,zzNATURE: Wild Planet (Samsung)
-#
-https://jmp2.uk/sam-GBBB5000002PL.m3u8
-#EXTINF:-1 gt="KIDS" tvg-country="United States" tvg-id="USBC36000073J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC36000073J_20221214T015041SQUARE.png_20221214015042.png" provider="samsung" url_mh="https://jmp2.uk/SamsungTVPlus/USBC36000073J.m3u8" url_alt="" status="ok:0 2024-11-09_12:27:33" description="" ,zzKIDS: RetroCrush (Samsung)
-#
-https://jmp2.uk/sam-USBC36000073J.m3u8
-#EXTINF:-1 gt="NATURE" tvg-country="United Kingdom" tvg-id="GBBC300003UQ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC300003UQ_20231011T082518SQUARE.png_20231011082518.png" provider="samsung" url_mh="https://jmp2.uk/SamsungTVPlus/GBBC300003UQ.m3u8" url_alt="" status="ok:0 2024-11-09_12:31:00" description="" ,zzNATURE: WaterBear (Samsung)
-#
-https://jmp2.uk/sam-GBBC300003UQ.m3u8
 #EXTINF:-1 tvg-id="",BBC Earth
 https://shouurvki7jtfax.ngolpdkyoctjcddxshli469r.org/sunshine/S7IP_-cCnXLpU7wb8Ojtw-tUOxIie_q_LBcRZPjaYqTxZ0crYv32AEycNvWug5QeHLcowRppfg06Jzi3M46d0Nib8_C0ft_4mrOjt0ONPamL7aRSqd0N_-n_hkx6OMDqz0IkYW_MWBjLbjoNl5phgzKp5_Z9q-zspTTz_XQv_YU/hls/index.m3u8
+#EXTINF:-1 tvg-id="",LZN
+https://iezmzlrgtn5pgme.ngolpdkyoctjcddxshli469r.org/sunshine/mHBCSlYP2EakXvMGvQNN1f75ujn-6qWqGIR_FZSdZJ_uqwczERRCAHq6UkkwckY9VaEdQ5wAgqsHXGmhmW8uJiUQM4D0X-DI9UQadDm5E4oid8g9uGa_IHS2Far2Mqs-UkwH5AmKX1h1pL1lwcMGOIESmE8KWgwcQ8bf71c4sGA/hls/index.m3u8
+#EXTINF:-1 tvg-id="",VIASAT Nature
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/OQz8JKc73fYSp13aPD9Ex5iToMw_W5BJPtLkBzzcU2mxR4QG4lGRuZ0w-3X4mjAnD_iXZq7McQxZGGxdTIHNDyeyciDUAe1sK6XaQBUfM1QsuGmHp0xOH1r_WhnCQcHFzPN7aOX0VN20PHim436HClakCX12gI0Eg8XKgdxjCj0/hls/index.m3u8
