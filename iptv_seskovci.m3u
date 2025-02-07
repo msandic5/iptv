@@ -62,7 +62,7 @@ https://webtvstream.bhtelecom.ba/hls7/rts_svet_1200.m3u8
 #EXTINF:-1 tvg-id="RTSTrezor.rs" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="Undefined",RTS Trezor (576p)
 #http://abcnew.site:8880/D12m2185/99818221/49088#checkedby:iptvlister.com
 #EXTINF:-1 tvg-id="Docubox.rs" tvg-logo="https://ocdn.eu/ptv2-images/logo-migrated/docubox-hd.png" group-title="Undefined",DocuBOX
-#http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/49232#checkedby:iptvlister.com
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/lEnndch5xkSYTO64SlOngc5WdZTF7tH7fe8qC2aRbJCF_7D2RSG7toE7HG6KuCaqThWrTgJeXy7mpzhsnfU71_Znaos1xNZLw_Ee6OdtmCGQz4xT5UuCRJTNYJXvujBRCSXf2TvwVX_HGoX1OIAdovn3BX8HcI-6HsVZqhcfxUI/hls/index.m3u8
 #EXTINF:-1 tvg-id="looneytuness.rs" tvg-logo="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/de3488b1-a8ab-4f34-8230-0a465a79ae86/d88774ed0ee3edad4535459ef0ee4d50463f4aa9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500" group-title="Undefined",LooneyTunes
 http://cord-cutter.net:8080/Danaunk1/ksGH6Tg3pY/125638
 #EXTINF:-1 tvg-id="HRT1.hr" tvg-logo="https://i.imgur.com/lDSctzX.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",HRT 1 (720p)
@@ -74,15 +74,15 @@ https://webtvstream.bhtelecom.ba/hrt2.m3u8
 #EXTINF:-1 tvg-id="HRT3.hr" tvg-logo="https://i.imgur.com/4OrOJRx.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",HRT 3 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://webtvstream.bhtelecom.ba/hrt3.m3u8
-#EXTINF:-1 tvg-id="TVSehara.si" tvg-logo="https://i.imgur.com/189FW4H.png" group-title="Music",Sehara TV (720p)
-#http://ip2.xxlservices.com:8081/seharaonline/live/playlist.m3u8
+#EXTINF:-1 tvg-id="TVDOKU.si" tvg-logo="https://www.phoenixrebornbuild.com.hr/media/com_myiptv/logos/pr/dokutv-alt.png" group-title="Music",DOKU TV (720p)
+https://shouurvki7jtfax.ngolpdkyoctjcddxshli469r.org/sunshine/463oRFB80y4_q88auP6-navpHbjFoNP-hzbrt7r4bdjsi2vuETAkTFr8LiTFoQouE3oU49SJXW6MMmKZmiaqgnv1qIWEaJRgrnYNWARvlUChe3awDtH8uHfCySTfukGbTtjb4VXfYxm0hC4ludPluHC0AZJzak07Idw7z-72PKs/hls/index.m3u8
 #EXTINF:-1 gt="DAY" tvg-country="RS" tvg-id="pink.sr" tvg-beid="TV Pink SD/HD.rs" tvg-tvprofil-id="pink.sr" tvg-logo="https://i.imgur.com/66wHb7E.png" status="ok:0 2024-09-28_11:48:07" ,Pink
 #
 https://live.rednet.rs/providus/pink1_hq/index.m3u8
 #EXTINF:-1 tvg-id="tomjerry.rs" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFd87TNMk8SHsXDPYfP3Q5ByXRQzYlIlDOlDTdaqsrpg5Ngo9nOXWGtZjHR2pZNCYrkq8&usqp=CAU" group-title="Undefined",Tom Jerry (720p)
 http://fortv.cc:8080/5ybSS2/616430/125635
 #EXTINF:-1 tvg-id="klasiktv.rs" tvg-logo="https://www.logotypes101.com/logos/819/D04B70B5D84CA0C46B9735E514BA1031/klasik_tv.png" group-title="Undefined",Klasik TV (720p)
-#http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/3404
+https://shouurvki7jtfax.ngolpdkyoctjcddxshli469r.org/sunshine/xUCguHAFyPlDQt26H2Td6PWsSBO6nc_jUItd1IStylfsWhaxLQ0Wkk4zzmLJ3S3t3f3IfAP_6C_WFtiCF0ET39Zpd1Ljo_lvGcDfeFi3gCfmuYBhdKyRp3EgMPQ-AvAzmclFsL__9D3OrDD3kMqm8-V9oZ_DMYkQXSXH4HMpRUQ/hls/index.m3u8
 #EXTINF:-1 gt="" tvg-country="" tvg-id="" tvg-beid="" tvg-tvprofil-id="" tvg-logo="https://i.imgur.com/5ZUk3ck.png" status="" ,Alternativna
 #+https://www.jagledam.com/Alternativna-ATV-uzivo-stream
 https://vpn.komtel.ba/hls/mylivestream.m3u8
@@ -93,9 +93,8 @@ https://53a7ed211fc32.streamlock.net/blictv-secure/smil:blictv-secure.smil/playl
 #does not work in kodi
 #EXTVLCOPT:http-user-agent=Android
 https://webtvstream.bhtelecom.ba/hls18/star_channel_1200.m3u8
-#EXTINF:-1 gt="NATURE" tvg-country="United States" tvg-id="USBA3800005NI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3800005NI_20230809T005143SQUARE.png_20230809005144.png" provider="samsung" url_mh="https://jmp2.uk/SamsungTVPlus/USBA3800005NI.m3u8" url_alt="" status="ok:0 2024-11-09_12:28:26" description="" ,zzNATURE: Clarity 4K (Samsung)
-#
-https://jmp2.uk/sam-USBA3800005NI.m3u8
+#EXTINF:-1 tvg-id="",VIASAT Explorer
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/f1HZjTl6LeklczpeZoZFiEs68pItykGM2VCQRKO-oUefQzEVllsxtu6dRS6GElJrKwQEr7i9vfA0m5wQI62t_HVWcGIo4SYXhu2PAALP3-SFNcuDuArQBvOqPYT4JLRRaNXhzh8w-fuaytcyKaG-1ghrgfgqw_WKTRE2Aijca7Q/hls/index.m3u8
 #EXTINF:-1 gt="NATURE" tvg-country="United Kingdom" tvg-id="GBBA220000751" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA220000751_20230125T022345SQUARE.png_20230125022346.png" provider="samsung" url_mh="https://jmp2.uk/SamsungTVPlus/GBBA220000751.m3u8" url_alt="" status="ok:0 2024-11-09_12:28:38" description="" ,zzNATURE: INWILD (Samsung)
 #
 https://jmp2.uk/sam-GBBA220000751.m3u8
@@ -109,4 +108,4 @@ https://jmp2.uk/sam-USBC36000073J.m3u8
 #
 https://jmp2.uk/sam-GBBC300003UQ.m3u8
 #EXTINF:-1 tvg-id="",BBC Earth
-https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+https://shouurvki7jtfax.ngolpdkyoctjcddxshli469r.org/sunshine/S7IP_-cCnXLpU7wb8Ojtw-tUOxIie_q_LBcRZPjaYqTxZ0crYv32AEycNvWug5QeHLcowRppfg06Jzi3M46d0Nib8_C0ft_4mrOjt0ONPamL7aRSqd0N_-n_hkx6OMDqz0IkYW_MWBjLbjoNl5phgzKp5_Z9q-zspTTz_XQv_YU/hls/index.m3u8
