@@ -1,7 +1,7 @@
 #EXTM3U 
 #EXTINF:-1 tvg-id="BNTV.ba" tvg-logo="https://i.imgur.com/DUBvfWb.png" group-title="Undefined",BN TV (480p)
 https://rtvbn.tv:8080/live/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Al Jazeera Balkans (1080p)
+#EXTINF:-1 tvg-id="" tvg-logo="https://e7.pngegg.com/pngimages/701/785/png-clipart-al-jazeera-english-al-jazeera-documentary-channel-al-jazeera-media-network-news-arabic-calligraphy-television-text.png" group-title="Undefined",Al Jazeera Balkans (1080p)
 https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
 #EXTINF:-1 tvg-id="LoveNature4K.ca" tvg-logo="https://i.imgur.com/oDacp1F.png" group-title="Undefined",Love Nature 4K
 https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8
@@ -175,7 +175,7 @@ https://joaquinito02.es/vavoo/1761826370.m3u8
 #KODIPROP:http-referrer=https://vavoo.to/
 #EXTHTTP:{"User-Agent":"VAVOO/1.0","Referer":"https://vavoo.to/"}
 https://joaquinito02.es/vavoo/1392680291.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="KLASIK TV (7)" tvg-logo="https://seeklogo.com/images/K/klasik-tv-logo-52F209499D-seeklogo.com.gif" group-title="Balkans" http-user-agent="VAVOO/1.0" http-referrer="https://vavoo.to/",KLASIK TV (7)
+#EXTINF:-1 tvg-id="" tvg-name="KLASIK TV (7)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Klasik_TV_logo.png" group-title="Balkans" http-user-agent="VAVOO/1.0" http-referrer="https://vavoo.to/",KLASIK TV (7)
 #EXTVLCOPT:http-user-agent=VAVOO/1.0
 #EXTVLCOPT:http-referrer=https://vavoo.to/
 #KODIPROP:http-user-agent=VAVOO/1.0
