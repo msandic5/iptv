@@ -124,7 +124,8 @@ def test_selected_thread():
     if not selected:
         messagebox.showinfo("Info", "Odaberi barem jedan kanal!")
         return
-    results = []
+    num_ok = 0
+    num_fail = 0
     progress_bar["maximum"] = len(selected)
     progress_var.set(0)
     root.update_idletasks()
@@ -137,10 +138,12 @@ def test_selected_thread():
             result = check_stream_vlc(ch["url"], ch["options"])
         else:
             result = check_stream_ffmpeg(ch["url"], ch["options"])
-        status = "✅ Radi" if result else "❌ Ne radi"
-        results.append(f"{ch['name']}: {status}")
         color = "green" if result else "red"
         listbox_left.itemconfig(idx, {"bg": color, "fg": "white"})
+        if result:
+            num_ok += 1
+        else:
+            num_fail += 1
         progress_var.set(i + 1)
         root.update_idletasks()
     progress_var.set(0)
@@ -148,7 +151,10 @@ def test_selected_thread():
     if stop_testing:
         messagebox.showinfo("Info", "Testing stopped!")
     else:
-        messagebox.showinfo("Result", "\n".join(results))
+        messagebox.showinfo(
+            "Result",
+            f"Channels: {len(selected)}\nWorking: {num_ok}\nNot Working: {num_fail}",
+        )
 
 
 def test_selected():
@@ -205,13 +211,14 @@ def save_playlist():
 
 
 root = tk.Tk()
-root.title("IPTV Stream Tester")
+style = ttk.Style(root)
+style.theme_use("vista")  # or "clam", "alt", "default", "xpnative"
 
 # Top frame for URL and LOAD
-frame_top = tk.Frame(root)
+frame_top = ttk.Frame(root)
 frame_top.pack(side=tk.TOP, fill=tk.X, padx=10, pady=10)
 
-entry_url = tk.Entry(frame_top, width=70)
+entry_url = ttk.Entry(frame_top, width=70)
 entry_url.pack(side=tk.LEFT, padx=(0, 10))
 entry_url.insert(
     0,
@@ -224,42 +231,99 @@ def clear_entry_on_click(event):
         entry_url.delete(0, END)
 
 
+def load_from_file():
+    file_path = filedialog.askopenfilename(
+        filetypes=[("M3U Playlist", "*.m3u"), ("All Files", "*.*")],
+        title="Open M3U Playlist",
+    )
+    if file_path:
+        entry_url.delete(0, END)
+        entry_url.insert(0, file_path)
+        # Učitaj kanale iz fajla
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+        except Exception as e:
+            messagebox.showerror("Error", f"Cannot load playlist!\n{e}")
+            return
+
+        channels.clear()
+        listbox_left.delete(0, END)
+        block_lines = []
+        vlc_options = []
+        channel_name = ""
+        for line in lines:
+            line = line.rstrip("\n")
+            if line.startswith("#EXTINF"):
+                block_lines = [line]
+                vlc_options = []
+                channel_name = line.split(",", 1)[-1].strip()
+            elif line.startswith("#EXTVLCOPT:"):
+                block_lines.append(line)
+                opt = ":" + line.strip().split(":", 1)[1]
+                vlc_options.append(opt)
+            elif line.startswith("http"):
+                block_lines.append(line)
+                url = line.strip()
+                channels.append(
+                    {
+                        "name": channel_name,
+                        "url": url,
+                        "options": vlc_options.copy(),
+                        "block": block_lines.copy(),
+                    }
+                )
+                listbox_left.insert(END, channel_name)
+                block_lines = []
+                vlc_options = []
+                channel_name = ""
+            else:
+                block_lines.append(line)
+
+
 entry_url.bind("<Button-1>", clear_entry_on_click)
 
-btn_load = tk.Button(frame_top, text="LOAD", command=load_channels, width=10)
-btn_load.pack(side=tk.LEFT)
+btn_load_url = ttk.Button(
+    frame_top, text="Load from URL", command=load_channels, width=15
+)
+btn_load_url.pack(side=tk.LEFT)
+
+btn_load_file = ttk.Button(
+    frame_top, text="Load from File", command=load_from_file, width=15
+)
+btn_load_file.pack(side=tk.LEFT, padx=(10, 0))
 
 # ProgressBar below top frame
-progress_frame = tk.Frame(root)
+progress_frame = ttk.Frame(root)
 progress_frame.pack(side=tk.TOP, fill=tk.X, padx=10, pady=(0, 10))
 progress_var = tk.DoubleVar()
 progress_bar = ttk.Progressbar(progress_frame, variable=progress_var, maximum=100)
 progress_bar.pack(fill=tk.X, expand=True)
 
 # Frame for radio buttons
-frame_radio = tk.LabelFrame(root, text="Testing Method", padx=10, pady=5)
+frame_radio = ttk.LabelFrame(root, text="Testing Method", padding=(10, 5))
 frame_radio.pack(side=tk.TOP, fill=tk.X, padx=10, pady=(0, 10))
 
 radio_var = tk.StringVar(value="vlc")
-radio_vlc = tk.Radiobutton(
+radio_vlc = ttk.Radiobutton(
     frame_radio, text="python-vlc", variable=radio_var, value="vlc"
 )
-radio_ffmpeg = tk.Radiobutton(
+radio_ffmpeg = ttk.Radiobutton(
     frame_radio, text="ffmpeg", variable=radio_var, value="ffmpeg"
 )
 radio_vlc.pack(side=tk.LEFT, padx=5)
 radio_ffmpeg.pack(side=tk.LEFT, padx=5)
 
-frame_main = tk.Frame(root)
+frame_main = ttk.Frame(root)
 frame_main.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-frame_left = tk.Frame(frame_main)
+frame_left = ttk.Frame(frame_main)
 frame_left.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-frame_right = tk.Frame(frame_main)
+frame_right = ttk.Frame(frame_main)
 frame_right.pack(side=tk.LEFT, fill=tk.Y, padx=(20, 0))
 
-scrollbar_left = Scrollbar(frame_left)
+scrollbar_left = ttk.Scrollbar(frame_left)
 scrollbar_left.pack(side=tk.RIGHT, fill=tk.Y)
 
 listbox_left = Listbox(
@@ -272,36 +336,30 @@ listbox_left = Listbox(
 listbox_left.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 scrollbar_left.config(command=listbox_left.yview)
 
-frame_buttons = tk.Frame(frame_right)
+frame_buttons = ttk.Frame(frame_right)
 frame_buttons.pack(side=tk.TOP, fill=tk.X)
 
-btn_test = tk.Button(
-    frame_buttons, text="TEST", command=test_selected, width=15, height=2
-)
+btn_test = ttk.Button(frame_buttons, text="TEST", command=test_selected, width=15)
 btn_test.pack(side=tk.LEFT, padx=(0, 5), pady=(0, 10))
 
-btn_stop = tk.Button(frame_buttons, text="STOP", command=stop_test, width=7, height=2)
+btn_stop = ttk.Button(frame_buttons, text="STOP", command=stop_test, width=7)
 btn_stop.pack(side=tk.LEFT, padx=(0, 10), pady=(0, 10))
 
-btn_add = tk.Button(
-    frame_buttons, text="Add Selected", command=add_selected, width=20, height=2
-)
+btn_add = ttk.Button(frame_buttons, text="Add Selected", command=add_selected, width=20)
 btn_add.pack(pady=(0, 10))
 
-btn_add_tested = tk.Button(
-    frame_buttons, text="Add Tested", command=add_tested, width=20, height=2
+btn_add_tested = ttk.Button(
+    frame_buttons, text="Add Tested", command=add_tested, width=20
 )
 btn_add_tested.pack(pady=(0, 10))
 
-btn_save = tk.Button(
-    frame_buttons, text="SAVE", command=save_playlist, width=20, height=2
-)
+btn_save = ttk.Button(frame_buttons, text="SAVE", command=save_playlist, width=20)
 btn_save.pack(pady=(0, 10))
 
-frame_right_list = tk.Frame(frame_right)
+frame_right_list = ttk.Frame(frame_right)
 frame_right_list.pack(side=tk.TOP, fill=tk.BOTH, expand=True, pady=(10, 0))
 
-scrollbar_right = Scrollbar(frame_right_list)
+scrollbar_right = ttk.Scrollbar(frame_right_list)
 scrollbar_right.pack(side=tk.RIGHT, fill=tk.Y)
 
 listbox_right = Listbox(
@@ -313,5 +371,79 @@ listbox_right = Listbox(
 )
 listbox_right.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 scrollbar_right.config(command=listbox_right.yview)
+
+
+def clear_left_list():
+    listbox_left.delete(0, END)
+    channels.clear()
+
+
+def clear_right_list():
+    listbox_right.delete(0, END)
+    selected_channels.clear()
+
+
+def remove_selected_right():
+    selected = listbox_right.curselection()
+    # Remove from end to start to avoid index shifting
+    for idx in reversed(selected):
+        listbox_right.delete(idx)
+        del selected_channels[idx]
+
+
+def add_selected_left():
+    add_selected()
+
+
+def on_left_double_click(event):
+    idx = listbox_left.curselection()
+    if idx:
+        add_selected()
+
+
+def on_right_double_click(event):
+    idx = listbox_right.curselection()
+    if idx:
+        remove_selected_right()
+
+
+def show_left_menu(event):
+    # Select item under cursor for context menu actions
+    try:
+        index = listbox_left.nearest(event.y)
+        listbox_left.selection_clear(0, END)
+        listbox_left.selection_set(index)
+    except Exception:
+        pass
+    left_menu.tk_popup(event.x_root, event.y_root)
+
+
+def show_right_menu(event):
+    # Select item under cursor for context menu actions
+    try:
+        index = listbox_right.nearest(event.y)
+        listbox_right.selection_clear(0, END)
+        listbox_right.selection_set(index)
+    except Exception:
+        pass
+    right_menu.tk_popup(event.x_root, event.y_root)
+
+
+# Kreiraj context menu za lijevu listu
+left_menu = tk.Menu(root, tearoff=0)
+left_menu.add_command(label="Add", command=add_selected_left)
+left_menu.add_command(label="Clear", command=clear_left_list)
+
+# Kreiraj context menu za desnu listu
+right_menu = tk.Menu(root, tearoff=0)
+right_menu.add_command(label="Remove", command=remove_selected_right)
+right_menu.add_command(label="Clear", command=clear_right_list)
+
+# Bind desni klik i dvoklik na listboxove
+listbox_left.bind("<Button-3>", show_left_menu)
+listbox_right.bind("<Button-3>", show_right_menu)
+listbox_left.bind("<Double-Button-1>", on_left_double_click)
+listbox_right.bind("<Double-Button-1>", on_right_double_click)
+
 
 root.mainloop()
