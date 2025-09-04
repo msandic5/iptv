@@ -59,7 +59,7 @@ def check_stream_ffmpeg(url, options=None):
             stderr=subprocess.DEVNULL,
             timeout=10,
         )
-        return result.returncode == 0  # samo kod 0 znači da radi
+        return result.returncode == 0  # only returncode 0 means success
     except Exception as e:
         return False
 
@@ -71,14 +71,14 @@ selected_channels = []
 def load_channels():
     url = entry_url.get().strip()
     if not url:
-        messagebox.showinfo("Info", "Unesi URL do M3U liste!")
+        messagebox.showinfo("Info", "Enter M3U playlist URL here!")
         return
     try:
         response = requests.get(url)
         response.encoding = "utf-8"
         lines = response.text.splitlines()
     except Exception as e:
-        messagebox.showerror("Greška", f"Ne mogu učitati listu!\n{e}")
+        messagebox.showerror("Error", f"Cannot load playlist!\n{e}")
         return
 
     channels.clear()
@@ -114,7 +114,7 @@ def load_channels():
             block_lines.append(line)
 
 
-# Globalna varijabla za zaustavljanje testiranja
+# Global variable to stop testing
 stop_testing = False
 
 
@@ -146,13 +146,13 @@ def test_selected_thread():
     progress_var.set(0)
     root.update_idletasks()
     if stop_testing:
-        messagebox.showinfo("Info", "Testiranje je zaustavljeno!")
+        messagebox.showinfo("Info", "Testing stopped!")
     else:
-        messagebox.showinfo("Rezultat", "\n".join(results))
+        messagebox.showinfo("Result", "\n".join(results))
 
 
 def test_selected():
-    # Pokreni testiranje u posebnoj niti
+    # Start testing in a separate thread
     threading.Thread(target=test_selected_thread, daemon=True).start()
 
 
@@ -164,11 +164,11 @@ def stop_test():
 def add_selected():
     selected = listbox_left.curselection()
     if not selected:
-        messagebox.showinfo("Info", "Odaberi barem jedan kanal za dodavanje!")
+        messagebox.showinfo("Info", "Select at least one channel to add!")
         return
     for idx in selected:
         ch = channels[idx]
-        # Provjeri da li je već dodan
+        # Check if already added
         if ch not in selected_channels:
             selected_channels.append(ch)
             listbox_right.insert(END, ch["name"])
@@ -188,12 +188,12 @@ def add_tested():
 
 def save_playlist():
     if not selected_channels:
-        messagebox.showinfo("Info", "Nema kanala za spremanje!")
+        messagebox.showinfo("Info", "No channels to save!")
         return
     file_path = filedialog.asksaveasfilename(
         defaultextension=".m3u",
         filetypes=[("M3U Playlist", "*.m3u"), ("All Files", "*.*")],
-        title="Sačuvaj playlistu",
+        title="Save Playlist",
     )
     if not file_path:
         return
@@ -201,13 +201,13 @@ def save_playlist():
         for ch in selected_channels:
             for line in ch["block"]:
                 f.write(line if line.endswith("\n") else line + "\n")
-    messagebox.showinfo("Info", f"Playlista je sačuvana na:\n{file_path}")
+    messagebox.showinfo("Info", f"Playlist saved to:\n{file_path}")
 
 
 root = tk.Tk()
 root.title("IPTV Stream Tester")
 
-# Top frame za URL i LOAD
+# Top frame for URL and LOAD
 frame_top = tk.Frame(root)
 frame_top.pack(side=tk.TOP, fill=tk.X, padx=10, pady=10)
 
@@ -215,12 +215,12 @@ entry_url = tk.Entry(frame_top, width=70)
 entry_url.pack(side=tk.LEFT, padx=(0, 10))
 entry_url.insert(
     0,
-    "UNESI OVDJE URL DO M3U LISTE",
+    "Enter M3U playlist URL here",
 )
 
 
 def clear_entry_on_click(event):
-    if entry_url.get() == "UNESI OVDJE URL DO M3U LISTE":
+    if entry_url.get() == "Enter M3U playlist URL here":
         entry_url.delete(0, END)
 
 
@@ -229,15 +229,15 @@ entry_url.bind("<Button-1>", clear_entry_on_click)
 btn_load = tk.Button(frame_top, text="LOAD", command=load_channels, width=10)
 btn_load.pack(side=tk.LEFT)
 
-# ProgressBar ispod URL EditBox-a
+# ProgressBar below top frame
 progress_frame = tk.Frame(root)
 progress_frame.pack(side=tk.TOP, fill=tk.X, padx=10, pady=(0, 10))
 progress_var = tk.DoubleVar()
 progress_bar = ttk.Progressbar(progress_frame, variable=progress_var, maximum=100)
 progress_bar.pack(fill=tk.X, expand=True)
 
-# Frame za radio button s labelom
-frame_radio = tk.LabelFrame(root, text="Metod testiranja", padx=10, pady=5)
+# Frame for radio buttons
+frame_radio = tk.LabelFrame(root, text="Testing Method", padx=10, pady=5)
 frame_radio.pack(side=tk.TOP, fill=tk.X, padx=10, pady=(0, 10))
 
 radio_var = tk.StringVar(value="vlc")
@@ -284,17 +284,17 @@ btn_stop = tk.Button(frame_buttons, text="STOP", command=stop_test, width=7, hei
 btn_stop.pack(side=tk.LEFT, padx=(0, 10), pady=(0, 10))
 
 btn_add = tk.Button(
-    frame_buttons, text="DODAJ", command=add_selected, width=20, height=2
+    frame_buttons, text="Add Selected", command=add_selected, width=20, height=2
 )
 btn_add.pack(pady=(0, 10))
 
 btn_add_tested = tk.Button(
-    frame_buttons, text="DODAJ TESTIRANE", command=add_tested, width=20, height=2
+    frame_buttons, text="Add Tested", command=add_tested, width=20, height=2
 )
 btn_add_tested.pack(pady=(0, 10))
 
 btn_save = tk.Button(
-    frame_buttons, text="SACUVAJ", command=save_playlist, width=20, height=2
+    frame_buttons, text="SAVE", command=save_playlist, width=20, height=2
 )
 btn_save.pack(pady=(0, 10))
 
