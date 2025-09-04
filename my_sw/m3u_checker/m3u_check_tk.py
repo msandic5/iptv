@@ -1,5 +1,6 @@
 import os
 import subprocess
+import threading
 import time
 import tkinter as tk
 from tkinter import END, Listbox, PhotoImage, Scrollbar, filedialog, messagebox, ttk
@@ -113,18 +114,24 @@ def load_channels():
             block_lines.append(line)
 
 
-def test_selected():
+# Globalna varijabla za zaustavljanje testiranja
+stop_testing = False
+
+
+def test_selected_thread():
+    global stop_testing
     selected = listbox_left.curselection()
     if not selected:
         messagebox.showinfo("Info", "Odaberi barem jedan kanal!")
         return
     results = []
-    progress_bar["maximum"] = len(
-        selected
-    )  # maksimalna vrijednost je broj selektovanih
+    progress_bar["maximum"] = len(selected)
     progress_var.set(0)
-    root.update_idletasks()  # osiguraj da se ProgressBar resetira
+    root.update_idletasks()
+    stop_testing = False
     for i, idx in enumerate(selected):
+        if stop_testing:
+            break
         ch = channels[idx]
         if radio_var.get() == "vlc":
             result = check_stream_vlc(ch["url"], ch["options"])
@@ -134,12 +141,24 @@ def test_selected():
         results.append(f"{ch['name']}: {status}")
         color = "green" if result else "red"
         listbox_left.itemconfig(idx, {"bg": color, "fg": "white"})
-        # Ažuriraj ProgressBar nakon svakog testiranja
         progress_var.set(i + 1)
         root.update_idletasks()
-    progress_var.set(0)  # Reset nakon testiranja
+    progress_var.set(0)
     root.update_idletasks()
-    messagebox.showinfo("Rezultat", "\n".join(results))
+    if stop_testing:
+        messagebox.showinfo("Info", "Testiranje je zaustavljeno!")
+    else:
+        messagebox.showinfo("Rezultat", "\n".join(results))
+
+
+def test_selected():
+    # Pokreni testiranje u posebnoj niti
+    threading.Thread(target=test_selected_thread, daemon=True).start()
+
+
+def stop_test():
+    global stop_testing
+    stop_testing = True
 
 
 def add_selected():
@@ -257,9 +276,12 @@ frame_buttons = tk.Frame(frame_right)
 frame_buttons.pack(side=tk.TOP, fill=tk.X)
 
 btn_test = tk.Button(
-    frame_buttons, text="TEST", command=test_selected, width=20, height=2
+    frame_buttons, text="TEST", command=test_selected, width=15, height=2
 )
-btn_test.pack(pady=(0, 10))
+btn_test.pack(side=tk.LEFT, padx=(0, 5), pady=(0, 10))
+
+btn_stop = tk.Button(frame_buttons, text="STOP", command=stop_test, width=7, height=2)
+btn_stop.pack(side=tk.LEFT, padx=(0, 10), pady=(0, 10))
 
 btn_add = tk.Button(
     frame_buttons, text="DODAJ", command=add_selected, width=20, height=2
