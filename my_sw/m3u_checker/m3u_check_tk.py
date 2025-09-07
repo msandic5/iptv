@@ -185,12 +185,11 @@ def add_selected():
 
 
 def add_tested():
-    # add all channels marked as green
+    # Dodaj sve kanale iz filtrirane liste koji su zeleni
     for idx in range(listbox_left.size()):
-        # Check background color
         item_bg = listbox_left.itemcget(idx, "bg")
         if item_bg == "green":
-            ch = channels[idx]
+            ch = filtered_channels[idx]  # koristi filtrirane kanale!
             if ch not in selected_channels:
                 selected_channels.append(ch)
                 listbox_right.insert(END, ch["name"])
