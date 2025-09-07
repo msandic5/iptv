@@ -351,9 +351,12 @@ progress_var = tk.DoubleVar()
 progress_bar = ttk.Progressbar(progress_frame, variable=progress_var, maximum=100)
 progress_bar.pack(fill=tk.X, expand=True)
 
-# Frame for radio buttons
-frame_radio = ttk.LabelFrame(root, text="Testing Method", padding=(10, 5))
-frame_radio.pack(side=tk.TOP, fill=tk.X, padx=10, pady=(0, 10))
+# --- Frame za Testing Method i Search odmah ispod ProgressBar-a ---
+frame_radio_search = ttk.Frame(root)
+frame_radio_search.pack(side=tk.TOP, fill=tk.X, padx=10, pady=(0, 10))
+
+frame_radio = ttk.LabelFrame(frame_radio_search, text="Testing Method", padding=(10, 5))
+frame_radio.pack(side=tk.LEFT, fill=tk.X, padx=(0, 10))
 
 radio_var = tk.StringVar(value="vlc")
 radio_vlc = ttk.Radiobutton(
@@ -364,6 +367,25 @@ radio_ffmpeg = ttk.Radiobutton(
 )
 radio_vlc.pack(side=tk.LEFT, padx=5)
 radio_ffmpeg.pack(side=tk.LEFT, padx=5)
+
+frame_search = ttk.LabelFrame(frame_radio_search, text="Search", padding=(10, 5))
+frame_search.pack(side=tk.LEFT, fill=tk.X, padx=(0, 10))
+
+search_var = tk.StringVar()
+entry_search = ttk.Entry(frame_search, textvariable=search_var, width=30)
+entry_search.pack(side=tk.LEFT, padx=5)
+
+
+# Funkcija za filtriranje lijeve liste
+def filter_left_list(*args):
+    query = search_var.get().lower()
+    listbox_left.delete(0, END)
+    for ch in channels:
+        if query in ch["name"].lower():
+            listbox_left.insert(END, ch["name"])
+
+
+search_var.trace_add("write", filter_left_list)
 
 frame_main = ttk.Frame(root)
 frame_main.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
