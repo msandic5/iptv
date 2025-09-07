@@ -114,6 +114,9 @@ def load_channels():
         else:
             block_lines.append(line)
 
+    filtered_channels.clear()
+    filtered_channels.extend(channels)
+
 
 # Global variable to stop testing
 stop_testing = False
@@ -281,6 +284,9 @@ def load_from_file():
                 channel_name = ""
             else:
                 block_lines.append(line)
+
+        filtered_channels.clear()
+        filtered_channels.extend(channels)
 
 
 def move_up_right():
@@ -524,15 +530,64 @@ def show_right_menu(event):
     right_menu.tk_popup(event.x_root, event.y_root)
 
 
+def play_selected_right():
+    selected = listbox_right.curselection()
+    if not selected:
+        messagebox.showinfo("Info", "Select an item to play!")
+        return
+    idx = selected[0]
+    ch = selected_channels[idx]
+    try:
+        instance = vlc.Instance()
+        player = instance.media_player_new()
+        if ch["options"]:
+            media = instance.media_new(ch["url"], *ch["options"])
+        else:
+            media = instance.media_new(ch["url"])
+        player.set_media(media)
+        player.play()
+
+        # Reprodukuj 10 sekundi pa automatski zatvori
+        def stop_player():
+            time.sleep(10)
+            player.stop()
+
+        threading.Thread(target=stop_player, daemon=True).start()
+    except Exception as e:
+        messagebox.showerror("Error", f"Cannot play stream!\n{e}")
+
+
+def play_selected_left():
+    selected = listbox_left.curselection()
+    if not selected:
+        messagebox.showinfo("Info", "Select an item to play!")
+        return
+    idx = selected[0]
+    ch = filtered_channels[idx]  # koristi filtrirane kanale!
+    try:
+        instance = vlc.Instance()
+        player = instance.media_player_new()
+        if ch["options"]:
+            media = instance.media_new(ch["url"], *ch["options"])
+        else:
+            media = instance.media_new(ch["url"])
+        player.set_media(media)
+        player.play()
+        messagebox.showinfo("Info", f"Playing: {ch['name']}")
+    except Exception as e:
+        messagebox.showerror("Error", f"Cannot play stream!\n{e}")
+
+
 # Create context menu for left list
 left_menu = tk.Menu(root, tearoff=0)
-left_menu.add_command(label="Add", command=add_selected_left)
-left_menu.add_command(label="Clear", command=clear_left_list)
+left_menu.add_command(label="Add Item", command=add_selected_left)
+left_menu.add_command(label="Clear List", command=clear_left_list)
 
 # Create context menu for right list
 right_menu = tk.Menu(root, tearoff=0)
-right_menu.add_command(label="Remove", command=remove_selected_right)
-right_menu.add_command(label="Clear", command=clear_right_list)
+right_menu.add_command(label="Play Item", command=play_selected_right)
+right_menu.add_command(label="Remove Item", command=remove_selected_right)
+right_menu.add_command(label="Clear List", command=clear_right_list)
 
 # Bind right-click and double-click events
 listbox_left.bind("<Button-3>", show_left_menu)
