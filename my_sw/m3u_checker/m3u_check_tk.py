@@ -66,6 +66,7 @@ def check_stream_ffmpeg(url, options=None):
 
 channels = []
 selected_channels = []
+filtered_channels = []
 
 
 def load_channels():
@@ -122,7 +123,7 @@ def test_selected_thread():
     global stop_testing
     selected = listbox_left.curselection()
     if not selected:
-        messagebox.showinfo("Info", "Odaberi barem jedan kanal!")
+        messagebox.showinfo("Info", "Select at least one channel!")
         return
     num_ok = 0
     num_fail = 0
@@ -133,7 +134,7 @@ def test_selected_thread():
     for i, idx in enumerate(selected):
         if stop_testing:
             break
-        ch = channels[idx]
+        ch = filtered_channels[idx]  # koristi filtrirane kanale!
         if radio_var.get() == "vlc":
             result = check_stream_vlc(ch["url"], ch["options"])
         else:
@@ -351,7 +352,7 @@ progress_var = tk.DoubleVar()
 progress_bar = ttk.Progressbar(progress_frame, variable=progress_var, maximum=100)
 progress_bar.pack(fill=tk.X, expand=True)
 
-# --- Frame za Testing Method i Search odmah ispod ProgressBar-a ---
+# --- Frame for Testing Method and Search right below ProgressBar ---
 frame_radio_search = ttk.Frame(root)
 frame_radio_search.pack(side=tk.TOP, fill=tk.X, padx=10, pady=(0, 10))
 
@@ -376,13 +377,15 @@ entry_search = ttk.Entry(frame_search, textvariable=search_var, width=30)
 entry_search.pack(side=tk.LEFT, padx=5)
 
 
-# Funkcija za filtriranje lijeve liste
+# Function to filter left list
 def filter_left_list(*args):
     query = search_var.get().lower()
     listbox_left.delete(0, END)
+    filtered_channels.clear()
     for ch in channels:
         if query in ch["name"].lower():
             listbox_left.insert(END, ch["name"])
+            filtered_channels.append(ch)
 
 
 search_var.trace_add("write", filter_left_list)
@@ -406,8 +409,8 @@ listbox_right = Listbox(
     frame_right_list,
     selectmode=tk.EXTENDED,
     yscrollcommand=scrollbar_right.set,
-    width=50,  # povećaj širinu
-    height=25,  # postavi visinu
+    width=50,  # set width
+    height=25,  # set height
     exportselection=0,
 )
 listbox_right.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
@@ -420,8 +423,8 @@ listbox_left = Listbox(
     frame_left,
     selectmode=tk.EXTENDED,
     yscrollcommand=scrollbar_left.set,
-    width=50,  # povećaj širinu
-    height=25,  # postavi visinu
+    width=50,
+    height=25,
     exportselection=0,
 )
 listbox_left.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
