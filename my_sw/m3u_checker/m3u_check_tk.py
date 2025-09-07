@@ -177,7 +177,7 @@ def add_selected():
         messagebox.showinfo("Info", "Select at least one channel to add!")
         return
     for idx in selected:
-        ch = channels[idx]
+        ch = filtered_channels[idx]  # koristi filtrirane kanale!
         # Check if already added
         if ch not in selected_channels:
             selected_channels.append(ch)
