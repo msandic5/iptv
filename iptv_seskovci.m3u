@@ -6,15 +6,11 @@ https://rtvbn.tv:8080/live/index.m3u8
 http://parh.rtrs.tv:1935/tv/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2Sgs5gM.png", RTRS (net)
 http://parh.rtrs.tv:1935/tv/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.supernovabih.ba/wp-content/uploads/2022/07/TV_rtrs-plus.png" tvg-id="RTRSPlus.ba",RTRS Plus (576p) [Not 24/7]
-https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5ZUk3ck.png", Alternativna (net)
 https://vpn.komtel.ba/hls/mylivestream.m3u8
 #EXTINF:-1 gt="" tvg-country="" tvg-id="" tvg-beid="" tvg-tvprofil-id="" tvg-logo="https://i.imgur.com/5ZUk3ck.png" status="" ,Alternativna
 #+https://www.jagledam.com/Alternativna-ATV-uzivo-stream
 https://vpn.komtel.ba/hls/mylivestream.m3u8
-#EXTINF:-1 tvg-logo="", Happy (net)
-https://stream1.happytv.rs/Happytv/myStream/playlist.m3u8
 #EXTINF:0 tvg-country="" tvg-logo="https://i.imgur.com/oUwwB9s.png" group-title="Undefined",Kurir TV (720p)
 https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dua57HD.png", Narodna (net)
@@ -46,23 +42,8 @@ https://edge8.pink.rs/redtv/index.m3u8
 https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1srp&u=n1info&p=n1Sh4redSecre7iNf0
 #EXTINF:-1 tvg-logo="https://i.imgur.com/72oMSWz.png", N1 BH (net)
 https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1bos&u=n1info&p=n1Sh4redSecre7iNf0
-#EXTINF:-1 tvg-logo="https://i.imgur.com/k875WTc.png", Studio B (net)
-http://91.148.117.134:1935/studiob/studiob.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="HRT1.hr" tvg-logo="https://i.imgur.com/lDSctzX.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",HRT 1 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://webtvstream.bhtelecom.ba/hrt1.m3u8
-#EXTINF:-1 tvg-id="HRT2.hr" tvg-logo="https://i.imgur.com/yyePcl1.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",HRT 2 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://webtvstream.bhtelecom.ba/hrt2.m3u8
-#EXTINF:-1 tvg-id="HRT3.hr" tvg-logo="https://i.imgur.com/4OrOJRx.png" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",HRT 3 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://webtvstream.bhtelecom.ba/hrt3.m3u8
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - HRT 4
-http://line.extraott-iptv.com:88/2755789541/1300714776/161143
 #EXTINF:-1 tvg-id="TVHram.rs" tvg-logo="https://i.imgur.com/I2LoCFF.png" group-title="Undefined",TV Hram (576p) [Not 24/7]
 https://vod1.laki.eu/live/hram/index.m3u8
-#EXTINF:-1 tvg-id="AlwaysFunnyVideos.us"  group-title="Series",Always Funny Videos
-https://linear-12.frequency.stream/dist/glewedtv/12/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-name="RtDoc" tvg-logo="https://antifriz.tv/storage/images/channel_logos/russia-today-doc-hd.png" group-title="Undefined",RtDoc
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/MgRgPaA.png" group-title="Undefined",CGTN Documentary
@@ -71,10 +52,6 @@ https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 https://amg00793-amg00793c5-xumo-us-2664.playouts.now.amagi.tv/bbcstudios-bbctopgear8min-all/playlist.m3u8
 #EXTINF:-1 tvg-id="TVAS.rs" tvg-logo="https://i.imgur.com/Vn0DKBN.png" group-title="Undefined",RTV AS (576p)
 https://srv1.adriatelekom.com/TVAS/index.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.imgur.com/WACrjS0.png" tvg-id="RTVZenica.ba" group-title="Undefined",RTV Zenica (720p)
-https://stream.rtvze.ba/live/123/123.m3u8
-#EXTINF:-1 tvg-id="TVPirot.rs" tvg-logo="https://i.imgur.com/eLvd3yd.png" group-title="Undefined",TV Pirot (240p) [Not 24/7]
-https://5bc45691ca49f.streamlock.net/tvpirot/uzivo/playlist.m3u8
 #EXTINF:-1 tvg-id="PiKanal.rs" tvg-logo="https://i.imgur.com/X4vBCVA.png" group-title="Undefined",TV Pi Canal Pirot (576p) [Not 24/7]
 https://stream.pikanal.rs/pikanal/pgm.m3u8
 #EXTINF:-1 tvg-id="BelleAmie.rs" tvg-logo="https://i.imgur.com/tOlN5Rz.png" group-title="Undefined",TV Belle Amie (540p)
@@ -83,271 +60,628 @@ http://92.60.238.10:1935/live/belleamie/playlist.m3u8
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| HBO 1 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174163
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| HBO 2 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174164
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| HBO 3 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161942
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| EPIC DRAMA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174133
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| TV 1000
-http://line.extraott-iptv.com:88/2755789541/1300714776/174301
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| STAR TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/257366
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| CINESTAR TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/161119
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| CINESTAR ACTION TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/161114
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| CINESTAR FANTASY
-http://line.extraott-iptv.com:88/2755789541/1300714776/174556
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| CINESTAR PREMIERE 1 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174644
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| CINESTAR PREMIERE 2 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174645
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| CINEMAX 1 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161881
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| CINEMAX 2 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174099
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| KLASIK TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/161970
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| M1 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161019
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| M1 FILM GOLD HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/377768
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| AXN HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174089
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| KINO TV HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174189
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| FOX HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161927
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| FOX LIFE HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161928
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| FOX CRIME HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174151
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| FOX MOVIES HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174153
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| ANIMAL PLANET 4K
-http://line.extraott-iptv.com:88/2755789541/1300714776/174080
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| 24 KITCHEN
-http://line.extraott-iptv.com:88/2755789541/1300714776/174077
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| DISCOVERY CHANNEL HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161894
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| DA VINCI LEARNING
-http://line.extraott-iptv.com:88/2755789541/1300714776/174106
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",HR - TLC
-http://line.extraott-iptv.com:88/2755789541/1300714776/161222
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| E! HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174131
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| DOKU TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/174129
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",HR - DOKU TV 4K
-http://line.extraott-iptv.com:88/2755789541/1300714776/174655
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",MK - TRAVEL CHANNEL
-http://line.extraott-iptv.com:88/2755789541/1300714776/174405
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| DOCU BOX HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174128
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| VIASAT NATURE
-http://line.extraott-iptv.com:88/2755789541/1300714776/162117
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| VIASAT HISTORY
-http://line.extraott-iptv.com:88/2755789541/1300714776/174419
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| VIASAT EXPLORE
-http://line.extraott-iptv.com:88/2755789541/1300714776/162115
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| NAT GEO HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174221
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| NAT GEO WILD HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174222
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| LOV I RIBOLOV
-http://line.extraott-iptv.com:88/2755789541/1300714776/161070
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| HISTORY CHANNEL
-http://line.extraott-iptv.com:88/2755789541/1300714776/174171
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| HISTORY 2
-http://line.extraott-iptv.com:88/2755789541/1300714776/161138
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| FOOD NETWORK
-http://line.extraott-iptv.com:88/2755789541/1300714776/174150
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| IDJ TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/174180
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",HR| RTL KOCKICA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161196
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| GRAND TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/174156
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| GRAND 2
-http://line.extraott-iptv.com:88/2755789541/1300714776/174154
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| DM SAT
-http://line.extraott-iptv.com:88/2755789541/1300714776/257376
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| BALKANIKA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174093
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",BOS - BN MUSIC
-http://line.extraott-iptv.com:88/2755789541/1300714776/380238
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| IZVORNA TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/174184
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",BIH| GLAS DRINE HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/160758
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| YU PLANET
-http://line.extraott-iptv.com:88/2755789541/1300714776/400152411
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU| TV DUGA
-http://line.extraott-iptv.com:88/2755789541/1300714776/174305
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU - MICKEY MOUSE 24/7
-http://line.extraott-iptv.com:88/2755789541/1300714776/33811
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU - TOON KIDS 24/7
-http://line.extraott-iptv.com:88/2755789541/1300714776/33821
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU - TOM AND JERRY 24/7
-http://line.extraott-iptv.com:88/2755789541/1300714776/42866
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU - PATROLNE SAPE 24/7
-http://line.extraott-iptv.com:88/2755789541/1300714776/42873
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | GENERAL",EXYU - PEPA PRASE 24/7
-http://line.extraott-iptv.com:88/2755789541/1300714776/42875
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - FACE HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/160750
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - AL JAZEERA BALKANS
-http://line.extraott-iptv.com:88/2755789541/1300714776/174422
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - OBN
-http://line.extraott-iptv.com:88/2755789541/1300714776/174502
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - BN TV HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/380239
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - BN 2 TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/174096
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - RTRS PLUS
-http://line.extraott-iptv.com:88/2755789541/1300714776/257325
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - RTRS HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174442
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - RTV SLON
-http://line.extraott-iptv.com:88/2755789541/1300714776/174507
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - K3 TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/174493
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - POSAVINA TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/174441
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - SEHARA TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/160805
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - ELTA TV HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174479
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BOS - FTV
-http://line.extraott-iptv.com:88/2755789541/1300714776/160757
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BIH - RTV BIR HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/15290
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | BOSNIA",BIH - NOVA BH HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/31504
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - NOVA 4K
-http://line.extraott-iptv.com:88/2755789541/1300714776/161178
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - DOMA TV FHD
-http://line.extraott-iptv.com:88/2755789541/1300714776/400260633
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - RTL
-http://line.extraott-iptv.com:88/2755789541/1300714776/160787
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - RTL 2 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161193
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - RTL CRIME 4K
-http://line.extraott-iptv.com:88/2755789541/1300714776/161195
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - RTL LIVING HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161197
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - RTL PASSION HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161198
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - MAXCRO SELECT 1 4K
-http://line.extraott-iptv.com:88/2755789541/1300714776/161157
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - MAXCRO SELECT 2 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161158
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - MAXCRO SELECT 3 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161159
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - MAXCRO SELECT 4 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161160
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - MAXCRO SELECT 5 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161161
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - MAXCRO SELECT 6 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161162
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - MAXCRO SELECT 7 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161163
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - MAXCRO SELECT 8 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161164
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - MAXCRO SELECT 9 HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/161165
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - POLJOPRIVREDNA TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/161188
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - SCIFI 4K
-http://line.extraott-iptv.com:88/2755789541/1300714776/161202
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - CINESTAR TV 1
-http://line.extraott-iptv.com:88/2755789541/1300714776/174646
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - CINESTAR TV 2
-http://line.extraott-iptv.com:88/2755789541/1300714776/174647
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - ZDRAVA TV
-http://line.extraott-iptv.com:88/2755789541/1300714776/161233
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",EXYU - NOVA WORLD HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/32155
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",EXYU - NOVA FAMILY HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/32159
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | CROATIA",HR - RTL DOCUMENTARY HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/37105
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - RTS ZIVOT HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174731
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - RTS TREZOR HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174730
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - RTS MUZIKA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174726
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - RTS KOLO HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174725
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - RTS DRAMA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174723
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - KURIR TV HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/40500
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - HAPPY MUZIKA
-http://line.extraott-iptv.com:88/2755789541/1300714776/37104
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - HAPPY ZIVOT
-http://line.extraott-iptv.com:88/2755789541/1300714776/37103
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - HAPPY ZEMLJA
-http://line.extraott-iptv.com:88/2755789541/1300714776/37102
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - HAPPY DRUSTVO
-http://line.extraott-iptv.com:88/2755789541/1300714776/37101
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - RTS KLASIKA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/37100
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/162033
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK 2 HD ( RED TV )
-http://line.extraott-iptv.com:88/2755789541/1300714776/174048
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK 3 INFO HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174049
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK ACTION HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116002
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK BH HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174051
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK M HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174067
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK CLASSIC HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174053
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK HA HA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174060
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK LOL HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174066
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK COMEDY
-http://line.extraott-iptv.com:88/2755789541/1300714776/400150465
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK PREMIUM HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116012
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK CRIME & MYSTERY HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116003
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK EXTRA
-http://line.extraott-iptv.com:88/2755789541/1300714776/116004
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK KUVAR
-http://line.extraott-iptv.com:88/2755789541/1300714776/400150464
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK FILM HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116005
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK PEDIA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116010
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK SCI-FI & FANTASY HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/400150468
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK HORROR HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116008
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK SHOW HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174074
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK THRILLER HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116016
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK WORLD CINEMA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174076
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK ZABAVA HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116018
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK WESTERN HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116017
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK SERIJE HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174073
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK ROMANCE HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/116014
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK PLUS HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/400150466
-#EXTINF:0 tvg-id="ext" group-title="►EXYU | SRBIJA",SRB - PINK MOVIES HD
-http://line.extraott-iptv.com:88/2755789541/1300714776/174068
+#EXTINF:-1 group-title="BALKANS",24 KITCHEN (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/802245103/index.m3u8
+#EXTINF:-1 group-title="BALKANS",ANIMAL PLANET (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2913748672/index.m3u8
+#EXTINF:-1 group-title="BALKANS",AXN (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2587266077/index.m3u8
+#EXTINF:-1 group-title="BALKANS",BALKAN TRIP (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3630683467/index.m3u8
+#EXTINF:-1 group-title="BALKANS",BBC EARTH (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1561391128/index.m3u8
+#EXTINF:-1 group-title="BALKANS",BN MUSIC (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/446208285/index.m3u8
+#EXTINF:-1 group-title="BALKANS",DISCOVERY (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2556336719/index.m3u8
+#EXTINF:-1 group-title="BALKANS",DISCOVERY CHANNEL (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3988084672/index.m3u8
+#EXTINF:-1 group-title="BALKANS",DISCOVERY ID (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/858477141/index.m3u8
+#EXTINF:-1 group-title="BALKANS",DOCUBOX (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/467190435/index.m3u8
+#EXTINF:-1 group-title="BALKANS",DOKU TV (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1778938190/index.m3u8
+#EXTINF:-1 group-title="BALKANS",DOMA (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1039949502/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FEDERALNA TELEVIZIJA (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/106979797/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FIGHTBOX (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2237874125/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HISTORY 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/21335052/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HISTORY CHANNEL (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1761826370/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HISTORY HD (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/639412623/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HRT 1 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3611265655/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HRT 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2426400935/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HRT 3 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2919225623/index.m3u8
+#EXTINF:-1 group-title="BALKANS",KLASIK TV (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/4019883638/index.m3u8
+#EXTINF:-1 group-title="BALKANS",KLASIK TV (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2775951753/index.m3u8
+#EXTINF:-1 group-title="BALKANS",LUD ZBUNJEN NORMALAN (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1205199104/index.m3u8
+#EXTINF:-1 group-title="BALKANS",M1 FILM (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/861731842/index.m3u8
+#EXTINF:-1 group-title="BALKANS",NAT GEO WILD (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2112036279/index.m3u8
+#EXTINF:-1 group-title="BALKANS",NATIONAL GEO WILD HD (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1589024375/index.m3u8
+#EXTINF:-1 group-title="BALKANS",NATIONAL GEOGRAPHIC HD (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1939231416/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK ACTION (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1266026394/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK ACTION (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/241827126/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK BRAVO (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1858421691/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK CLASSIC (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/366694651/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK CLASSIC (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2552855542/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK COMEDY (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3051675542/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK COMEDY (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/4042990906/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK CRIME & MYSTERY (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1398596310/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK CRIME & MYSTERY (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1334542737/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK EXTRA (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2317581732/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK EXTRA (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/4122781242/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK FAMILY (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2969315161/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK FAMILY (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/4125351413/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK FILM (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/237557944/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK FILM (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1153957703/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK HORROR (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/317628120/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK MOVIES (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3434111784/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK ROMANCE (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3961402740/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK SCI-FI & FANTASY (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/559958860/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK THRILLER (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1572807593/index.m3u8
+#EXTINF:-1 group-title="BALKANS",PINK WESTERN (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1735334790/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTL (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3238173013/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTL 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/992994150/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTL KOCKICA (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1930307647/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTL LIVING (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3171935302/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTRS (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/173136522/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTS 1 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3977868689/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTS 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2864254785/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTS 3 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2547590897/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTS DRAMA (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1047810031/index.m3u8
+#EXTINF:-1 group-title="BALKANS",RTS TREZOR (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/506589367/index.m3u8
+#EXTINF:-1 group-title="BALKANS",TOM AND JERRY (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/443724116/index.m3u8
+#EXTINF:-1 group-title="BALKANS",VIASAT EXPLORER (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3010203301/index.m3u8
+#EXTINF:-1 group-title="BALKANS",VIASAT HISTORY (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2809579529/index.m3u8
+#EXTINF:-1 group-title="BALKANS",VIASAT HISTORY (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3444914860/index.m3u8
+#EXTINF:-1 group-title="BALKANS",VIASAT NATURE (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3587917964/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HBO (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2424553859/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HBO 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2315061688/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HBO 2 HD (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2249984707/index.m3u8
+#EXTINF:-1 group-title="BALKANS",HBO 3 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3030196232/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINE+ SELECT 1 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2523260552/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINE+ SELECT 10 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/355106282/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINE+ SELECT 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3519388760/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINE+ SELECT 3 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3970282984/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINE+ SELECT 4 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1585801720/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINE+ SELECT 5 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1675968584/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINE+ SELECT 6 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/608516760/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINE+ SELECT 7 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/421860136/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINE+ SELECT 9 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2786438473/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINEMA TV BH (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3863662541/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINEMANIA (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3999207369/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINEMANIA (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2763008054/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINEMAX (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2776919121/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINEMAX 1 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1989623711/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINEMAX 1 HD (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2636960944/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINEMAX 2 (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/858985043/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINEMAX 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/825705807/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINEMAX 2 HD (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/329503571/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3780174251/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR ACTION (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1294430320/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR ACTION TV (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3874892108/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR COMEDY (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1202980829/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR FANTASY (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2089535721/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR FANTASY (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1868891312/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR FANTASY (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2407104780/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR PREMIERE 1 (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2024576859/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR PREMIERE 1 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2090315961/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR PREMIERE 2 (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1057811851/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR PREMIERE 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/993512041/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR TV (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3677791084/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR TV 1 (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2669560148/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR TV 2 (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3636345732/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR TV 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/4087852378/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR TV ACTION (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3735821845/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR TV PREMIERE 1 (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3576189761/index.m3u8
+#EXTINF:-1 group-title="BALKANS",CINESTAR TV PREMIERE 2 (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2458397073/index.m3u8
+#EXTINF:-1 group-title="BALKANS",EPIC DRAMA (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3559293169/index.m3u8
+#EXTINF:-1 group-title="BALKANS",EURO CINEMA 1 (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2233020299/index.m3u8
+#EXTINF:-1 group-title="BALKANS",EURO CINEMA 3 (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/4292443371/index.m3u8
+#EXTINF:-1 group-title="BALKANS",EURO CINEMA 4 (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1308205307/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/445499990/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3554318857/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2934104722/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX CRIME (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/4236308356/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX CRIME (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3060779131/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX LIFE (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3243625503/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX LIFE (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1228302300/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX LIFE (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1324249288/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX MOVIES (1)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2183237728/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX MOVIES (6)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/4049881232/index.m3u8
+#EXTINF:-1 group-title="BALKANS",FOX MOVIES (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/4257106942/index.m3u8
+#EXTINF:-1 group-title="BALKANS",MASA I MEDO (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/428491796/index.m3u8
+#EXTINF:-1 group-title="BALKANS",MAXCRO SELECT 2 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/333385274/index.m3u8
+#EXTINF:-1 group-title="BALKANS",MAXCRO SELECT 3 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/784279434/index.m3u8
+#EXTINF:-1 group-title="BALKANS",MAXCRO SELECT 4 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/2627730330/index.m3u8
+#EXTINF:-1 group-title="BALKANS",MAXCRO SELECT 6 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/3865028858/index.m3u8
+#EXTINF:-1 group-title="BALKANS",MAXCRO SELECT 8 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1500452507/index.m3u8
+#EXTINF:-1 group-title="BALKANS",MAXCRO SELECT 9 (7)
+#EXTVLCOPT:http-origin=http://vavoo.to
+#EXTVLCOPT:http-referrer=http://vavoo.to/
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+http://vavoo.to/play/1678720811/index.m3u8
